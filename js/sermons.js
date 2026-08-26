@@ -28,16 +28,38 @@
     let grid, searchInput, sortSelect, preacherSelect, emptyState, loadingEl;
 
     // ── Helpers ────────────────────────────────────────────
-    function parseMeta(description) {
-        const meta = { preacher: '', topic: '', scripture: '' };
-        if (!description) return meta;
+    function parseMeta(description, title) {
+        const meta = { preacher: '', topic: '', scripture: '', date: '', dateObj: null };
+        if (description) {
+            const lines = description.split('\n');
+            for (const line of lines) {
+                const lower = line.toLowerCase().trim();
+                if (lower.includes('preached:') || lower.startsWith('date:')) {
+                    meta.date = line.split(':').slice(1).join(':').replace(/[📅🗓️]/g, '').trim();
+                }
+                if (lower.startsWith('preacher:') || lower.startsWith('speaker:') || lower.includes('preacher:')) {
+                    meta.preacher = line.split(':').slice(1).join(':').replace(/[🎙️🗣️]/g, '').trim();
+                }
+                if (lower.startsWith('topic:')) {
+                    meta.topic = line.split(':').slice(1).join(':').trim();
+                }
+                if (lower.startsWith('scripture:') || lower.includes('scripture:')) {
+                    meta.scripture = line.split(':').slice(1).join(':').replace(/[📖✝️]/g, '').trim();
+                }
+            }
+        }
 
-        const lines = description.split('\n');
-        for (const line of lines) {
-            const lower = line.toLowerCase();
-            if (lower.startsWith('preacher:') || lower.startsWith('speaker:'))  meta.preacher  = line.split(':').slice(1).join(':').trim();
-            if (lower.startsWith('topic:'))     meta.topic     = line.split(':').slice(1).join(':').trim();
-            if (lower.startsWith('scripture:')) meta.scripture = line.split(':').slice(1).join(':').trim();
+        // Fallback: extract date from title e.g. "(Aug 16, 2026)" or "(2024)"
+        if (!meta.date && title) {
+            const m = title.match(/\(([A-Za-z]{3,9}\s+\d{1,2},?\s+\d{4}|\d{4}-\d{2}-\d{2}|\d{4})\)/);
+            if (m) meta.date = m[1];
+        }
+
+        if (meta.date) {
+            const parsed = new Date(meta.date);
+            if (!isNaN(parsed.getTime())) {
+                meta.dateObj = parsed;
+            }
         }
         return meta;
     }
@@ -56,11 +78,12 @@
     // ── Render a single sermon card ────────────────────────
     function renderCard(s) {
         const ytSrc = `https://www.youtube.com/embed/${s.videoId}`;
+        const displayDate = s.meta.date ? `Preached: ${s.meta.date}` : formatDate(s.publishedAt);
         return `
         <article class="sermon-card" data-id="${s.videoId}">
             <div class="sermon-card-header">
                 <div class="sermon-card-meta-top">
-                    <time class="sermon-date">${formatDate(s.publishedAt)}</time>
+                    <time class="sermon-date">📅 ${displayDate}</time>
                     ${s.isLive ? '<span class="sermon-live-badge">Live Recording</span>' : ''}
                 </div>
                 <h3 class="sermon-title">${s.title}</h3>
@@ -123,8 +146,10 @@
         });
 
         filtered.sort((a, b) => {
-            if (sortVal === 'date-asc')  return new Date(a.publishedAt) - new Date(b.publishedAt);
-            if (sortVal === 'date-desc') return new Date(b.publishedAt) - new Date(a.publishedAt);
+            const timeA = (a.meta.dateObj ? a.meta.dateObj.getTime() : new Date(a.publishedAt).getTime());
+            const timeB = (b.meta.dateObj ? b.meta.dateObj.getTime() : new Date(b.publishedAt).getTime());
+            if (sortVal === 'date-asc')  return timeA - timeB;
+            if (sortVal === 'date-desc') return timeB - timeA;
             if (sortVal === 'preacher')  return (a.meta.preacher || 'zzz').localeCompare(b.meta.preacher || 'zzz');
             return 0;
         });
@@ -266,14 +291,18 @@
                     videoId,
                     title: item.snippet.title,
                     publishedAt,
-                    meta: parseMeta(desc),
+                    meta: parseMeta(desc, item.snippet.title),
                     isLive: item.snippet.title.toLowerCase().includes('live') ||
                             (detail?.snippet?.liveBroadcastContent === 'none' && false),
                 };
             });
 
-            // Default: newest first
-            allSermons.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+            // Default: newest preached first
+            allSermons.sort((a, b) => {
+                const timeA = (a.meta.dateObj ? a.meta.dateObj.getTime() : new Date(a.publishedAt).getTime());
+                const timeB = (b.meta.dateObj ? b.meta.dateObj.getTime() : new Date(b.publishedAt).getTime());
+                return timeB - timeA;
+            });
 
             // If channel has no videos yet, show demo cards
             if (allSermons.length === 0) {

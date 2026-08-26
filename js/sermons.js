@@ -78,14 +78,10 @@
     // ── Render a single sermon card ────────────────────────
     function renderCard(s) {
         const ytSrc = `https://www.youtube.com/embed/${s.videoId}`;
-        const displayDate = s.meta.date ? `Preached: ${s.meta.date}` : formatDate(s.publishedAt);
         return `
         <article class="sermon-card" data-id="${s.videoId}">
             <div class="sermon-card-header">
-                <div class="sermon-card-meta-top">
-                    <time class="sermon-date">📅 ${displayDate}</time>
-                    ${s.isLive ? '<span class="sermon-live-badge">Live Recording</span>' : ''}
-                </div>
+                ${s.isLive ? '<div class="sermon-card-meta-top"><span class="sermon-live-badge">Live Recording</span></div>' : ''}
                 <h3 class="sermon-title">${s.title}</h3>
                 <div class="sermon-tags">
                     ${tag(s.meta.preacher,  'preacher')}
@@ -231,7 +227,6 @@
             <article class="sermon-card" data-id="${s.videoId}">
                 <div class="sermon-card-header">
                     <div class="sermon-card-meta-top">
-                        <time class="sermon-date">${formatDate(s.publishedAt)}</time>
                         <span class="sermon-live-badge" style="background:rgba(45,100,45,0.12);color:#2a5e2a;">Preview</span>
                     </div>
                     <h3 class="sermon-title">${s.title}</h3>

@@ -32,7 +32,7 @@
     --radius-sm:     3px;
     --radius-full:   9999px;
     --transition:    all .25s ease-out;
-    --header-h:      100px;         /* Height of main nav header */
+    --header-h:      108px;         /* Height of main nav header */
 }
 
 /* ─── BASE STYLES ────────────────────────────────────────── */
@@ -126,7 +126,7 @@ header {
     top: 0;
     width: 100%;
     height: var(--header-h);
-    background: rgba(255, 255, 255, 0.97);
+    background: rgba(255, 255, 255, 0.98);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     z-index: 1000;
@@ -138,7 +138,7 @@ header {
 
 header.scrolled {
     box-shadow: var(--shadow-sm);
-    height: 76px;
+    height: 88px;
 }
 
 .nav-inner {
@@ -158,14 +158,14 @@ header.scrolled {
 }
 
 .logo img {
-    height: 84px;
+    height: 92px;
     width: auto;
     display: block;
     transition: var(--transition);
 }
 
 header.scrolled .logo img {
-    height: 60px;
+    height: 78px;
 }
 
 /* Nav links */
@@ -1083,20 +1083,23 @@ footer h4 {
         padding: 0 24px;
     }
     header {
-        height: 70px;
+        height: 86px;
     }
     :root {
-        --header-h: 70px;
+        --header-h: 86px;
+    }
+    .logo img {
+        height: 72px;
     }
     .hamburger {
         display: flex;
     }
     .nav-links {
         position: fixed;
-        top: 70px;
+        top: 86px;
         left: -100%;
         width: 100%;
-        height: calc(100vh - 70px);
+        height: calc(100vh - 86px);
         background: var(--bg);
         flex-direction: column;
         padding: 40px 24px;
@@ -1162,8 +1165,18 @@ footer h4 {
 }
 
 @media(max-width: 480px) {
+    header {
+        height: 78px;
+    }
+    :root {
+        --header-h: 78px;
+    }
     .logo img {
-        height: 40px;
+        height: 60px;
+    }
+    .nav-links {
+        top: 78px;
+        height: calc(100vh - 78px);
     }
     .sermon-toolbar {
         flex-direction: column;

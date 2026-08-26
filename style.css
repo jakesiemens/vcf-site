@@ -883,30 +883,88 @@ section.alt-bg {
 .sermon-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 6px;
+    align-items: center;
+    gap: 8px;
+    margin-top: 4px;
 }
 
 .sermon-tag {
-    display: inline-block;
-    font-size: .74rem;
+    display: inline-flex;
+    align-items: center;
+    font-size: .75rem;
     font-weight: 600;
-    padding: 3px 10px;
+    padding: 4px 10px;
     border-radius: var(--radius-sm);
+    line-height: 1.2;
+    text-decoration: none;
+    border: none;
+    font-family: inherit;
 }
 
-.sermon-tag--preacher {
+button.sermon-tag--preacher {
     background: var(--bg-alt);
-    color: var(--fg-light);
+    color: var(--primary);
+    border: 1px solid var(--border);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+button.sermon-tag--preacher:hover {
+    background: var(--primary);
+    color: var(--white);
+    border-color: var(--primary);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-sm);
+}
+
+button.sermon-tag--preacher svg {
+    stroke: currentColor;
+    margin-right: 5px;
 }
 
 .sermon-tag--scripture {
-    background: rgba(230, 110, 40, 0.12);
+    background: rgba(234, 100, 42, 0.09);
     color: var(--orange-dark);
+    border: 1px solid rgba(234, 100, 42, 0.20);
 }
 
-.sermon-tag--topic {
-    background: rgba(51, 78, 104, 0.10);
+.sermon-tag--scripture svg {
+    stroke: currentColor;
+    margin-right: 5px;
+}
+
+.sermon-filter-status {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--bg-alt);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 10px 16px;
+    margin-bottom: 24px;
+    font-size: .88rem;
+    color: var(--fg);
+}
+
+.sermon-filter-status-text strong {
     color: var(--primary);
+}
+
+.sermon-filter-reset-btn {
+    background: none;
+    border: none;
+    color: var(--orange-dark);
+    font-weight: 600;
+    font-size: .82rem;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: var(--transition);
+}
+
+.sermon-filter-reset-btn:hover {
+    background: rgba(234, 100, 42, 0.1);
 }
 
 .yt-wrap {

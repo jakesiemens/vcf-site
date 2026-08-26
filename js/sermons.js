@@ -2,19 +2,6 @@
  * ─────────────────────────────────────────────────────────
  *  VCF Sermon Library — YouTube Data API Integration
  * ─────────────────────────────────────────────────────────
- *
- *  DESCRIPTION CONVENTION
- *  ───────────────────────
- *  When uploading a sermon to YouTube, include these lines
- *  anywhere in the video description for auto-tagging:
- *
- *      Preacher: Jake Siemens
- *      Topic: The Gospel of Grace
- *      Scripture: Romans 1:16–17
- *
- *  All three are optional — videos without them still appear,
- *  just without filter tags.
- * ─────────────────────────────────────────────────────────
  */
 
 (function () {
@@ -24,12 +11,36 @@
     let allSermons = [];        // full fetched list
     let filtered   = [];        // after search / filter / sort
 
-    // ── DOM References (set after DOMContentLoaded) ────────
+    // ── DOM References ─────────────────────────────────────
     let grid, searchInput, sortSelect, preacherSelect, emptyState, loadingEl;
+    let filterStatus, filterStatusText, filterResetBtn;
 
     // ── Helpers ────────────────────────────────────────────
-    function parseMeta(description, title) {
-        const meta = { preacher: '', topic: '', scripture: '', date: '', dateObj: null };
+    function escapeHtml(str) {
+        if (!str) return '';
+        return String(str)
+            .replace(/&/g, '&amp;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;');
+    }
+
+    function parseMeta(description, title, tags) {
+        const meta = {
+            preacher: '',
+            topic: '',
+            scripture: '',
+            date: '',
+            dateObj: null,
+            searchKeywords: ''
+        };
+
+        const kwParts = [];
+        if (title) kwParts.push(title);
+        if (description) kwParts.push(description);
+        if (Array.isArray(tags)) kwParts.push(tags.join(' '));
+
         if (description) {
             const lines = description.split('\n');
             for (const line of lines) {
@@ -40,7 +51,7 @@
                 if (lower.startsWith('preacher:') || lower.startsWith('speaker:') || lower.includes('preacher:')) {
                     meta.preacher = line.split(':').slice(1).join(':').replace(/[🎙️🗣️]/g, '').trim();
                 }
-                if (lower.startsWith('topic:')) {
+                if (lower.startsWith('topic:') || lower.includes('topic:')) {
                     meta.topic = line.split(':').slice(1).join(':').trim();
                 }
                 if (lower.startsWith('scripture:') || lower.includes('scripture:')) {
@@ -55,12 +66,38 @@
             if (m) meta.date = m[1];
         }
 
+        // Fallback: extract preacher from title if not set
+        if (!meta.preacher && title) {
+            const mPreacher = title.match(/-\s*([A-Za-z\s]+?)\s*(\([A-Za-z0-9,\s]+\)|\|)/);
+            if (mPreacher) {
+                const cand = mPreacher[1].trim();
+                if (!cand.toLowerCase().includes('victory') && !cand.toLowerCase().includes('fellowship')) {
+                    meta.preacher = cand;
+                }
+            }
+        }
+
+        // Fallback: extract scripture from title if not set
+        if (!meta.scripture && title) {
+            const mScripture = title.match(/\b((?:Genesis|Exodus|Leviticus|Numbers|Deuteronomy|Joshua|Judges|Ruth|1\s*Samuel|2\s*Samuel|1\s*Kings|2\s*Kings|1\s*Chronicles|2\s*Chronicles|Ezra|Nehemiah|Esther|Job|Psalms?|Proverbs|Ecclesiastes|Song of Solomon|Isaiah|Jeremiah|Lamentations|Ezekiel|Daniel|Hosea|Joel|Amos|Obadiah|Jonah|Micah|Nahum|Habakkuk|Zephaniah|Haggai|Zechariah|Malachi|Matthew|Mark|Luke|John|Acts|Romans|1\s*Corinthians|2\s*Corinthians|Galatians|Ephesians|Philippians|Colossians|1\s*Thessalonians|2\s*Thessalonians|1\s*Timothy|2\s*Timothy|Titus|Philemon|Hebrews|James|1\s*Peter|2\s*Peter|1\s*John|2\s*John|3\s*John|Jude|Revelation)\s+\d+(?::\d+(?:-\d+)?)?)/i);
+            if (mScripture) {
+                meta.scripture = mScripture[1];
+            }
+        }
+
         if (meta.date) {
             const parsed = new Date(meta.date);
             if (!isNaN(parsed.getTime())) {
                 meta.dateObj = parsed;
             }
         }
+
+        if (meta.preacher) kwParts.push(meta.preacher);
+        if (meta.scripture) kwParts.push(meta.scripture);
+        if (meta.topic) kwParts.push(meta.topic);
+        if (meta.date) kwParts.push(meta.date);
+
+        meta.searchKeywords = kwParts.join(' ').toLowerCase();
         return meta;
     }
 
@@ -70,29 +107,36 @@
         });
     }
 
-    function tag(text, cls) {
-        if (!text) return '';
-        return `<span class="sermon-tag sermon-tag--${cls}">${text}</span>`;
-    }
-
     // ── Render a single sermon card ────────────────────────
     function renderCard(s) {
         const ytSrc = `https://www.youtube.com/embed/${s.videoId}`;
+        const preacherBtn = s.meta.preacher
+            ? `<button type="button" class="sermon-tag sermon-tag--preacher" data-preacher="${escapeHtml(s.meta.preacher)}" title="Filter sermons by ${escapeHtml(s.meta.preacher)}">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                ${escapeHtml(s.meta.preacher)}
+               </button>`
+            : '';
+        const scriptureTag = s.meta.scripture
+            ? `<span class="sermon-tag sermon-tag--scripture" title="Scripture passage">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                ${escapeHtml(s.meta.scripture)}
+               </span>`
+            : '';
+
         return `
         <article class="sermon-card" data-id="${s.videoId}">
             <div class="sermon-card-header">
                 ${s.isLive ? '<div class="sermon-card-meta-top"><span class="sermon-live-badge">Live Recording</span></div>' : ''}
-                <h3 class="sermon-title">${s.title}</h3>
+                <h3 class="sermon-title">${escapeHtml(s.title)}</h3>
                 <div class="sermon-tags">
-                    ${tag(s.meta.preacher,  'preacher')}
-                    ${tag(s.meta.scripture, 'scripture')}
-                    ${tag(s.meta.topic,     'topic')}
+                    ${preacherBtn}
+                    ${scriptureTag}
                 </div>
             </div>
             <div class="yt-wrap">
                 <iframe
                     src="${ytSrc}"
-                    title="${s.title}"
+                    title="${escapeHtml(s.title)}"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen
@@ -102,7 +146,7 @@
         </article>`;
     }
 
-    // ── Re-render the grid from `filtered` ─────────────────
+    // ── Re-render the grid from \`filtered\` ─────────────────
     function renderGrid() {
         if (filtered.length === 0) {
             grid.innerHTML = '';
@@ -117,10 +161,10 @@
     function buildPreacherDropdown() {
         const preachers = [...new Set(
             allSermons.map(s => s.meta.preacher).filter(Boolean)
-        )].sort();
+        )].filter(p => !p.toLowerCase().includes('victory christian')).sort();
 
         preacherSelect.innerHTML = '<option value="">All Preachers</option>' +
-            preachers.map(p => `<option value="${p}">${p}</option>`).join('');
+            preachers.map(p => `<option value="${escapeHtml(p)}">${escapeHtml(p)}</option>`).join('');
     }
 
     // ── Apply current filter + sort state ──────────────────
@@ -130,14 +174,13 @@
         const preacher = preacherSelect.value;
 
         filtered = allSermons.filter(s => {
-            const matchSearch = !query ||
-                s.title.toLowerCase().includes(query) ||
-                s.meta.preacher.toLowerCase().includes(query) ||
-                s.meta.topic.toLowerCase().includes(query) ||
-                s.meta.scripture.toLowerCase().includes(query);
+            let matchSearch = true;
+            if (query) {
+                const words = query.split(/\s+/).filter(Boolean);
+                matchSearch = words.every(w => s.meta.searchKeywords.includes(w));
+            }
 
-            const matchPreacher = !preacher || s.meta.preacher === preacher;
-
+            const matchPreacher = !preacher || s.meta.preacher.toLowerCase() === preacher.toLowerCase();
             return matchSearch && matchPreacher;
         });
 
@@ -150,10 +193,24 @@
             return 0;
         });
 
+        // Update active filter indicator
+        if (filterStatus && filterStatusText) {
+            const activeConditions = [];
+            if (preacher) activeConditions.push(`Preacher: <strong>${escapeHtml(preacher)}</strong>`);
+            if (query) activeConditions.push(`Search: <strong>"${escapeHtml(query)}"</strong>`);
+
+            if (activeConditions.length > 0) {
+                filterStatusText.innerHTML = `Showing ${filtered.length} sermon${filtered.length === 1 ? '' : 's'} (${activeConditions.join(' · ')})`;
+                filterStatus.hidden = false;
+            } else {
+                filterStatus.hidden = true;
+            }
+        }
+
         renderGrid();
     }
 
-    // ── Fetch full video details (description) for a batch ─
+    // ── Fetch full video details (description, tags) for a batch ─
     async function fetchVideoDetails(videoIds) {
         const ids   = videoIds.join(',');
         const url   = `https://www.googleapis.com/youtube/v3/videos?part=snippet&id=${ids}&key=${VCF_CONFIG.API_KEY}`;
@@ -191,28 +248,28 @@
         return videos;
     }
 
-    // ── Demo sermon cards (shown until real videos exist) ──────
+    // ── Demo sermon cards ──────────────────────────────────
     function showDemoSermons() {
         const demoSermons = [
             {
                 videoId: 'demo1',
-                title: 'Walking in the Spirit — A Life Set Free',
+                title: 'Walking in the Spirit — A Life Set Free (Apr 27, 2026)',
                 publishedAt: '2026-04-27T09:30:00Z',
-                meta: { preacher: 'Jake Siemens', topic: 'The Holy Spirit', scripture: 'Galatians 5:16–25' },
+                meta: { preacher: 'Jake Siemens', topic: 'The Holy Spirit', scripture: 'Galatians 5:16–25', searchKeywords: 'jake siemens walking holy spirit galatians 5' },
                 isDemo: true,
             },
             {
                 videoId: 'demo2',
-                title: 'The Prodigal Son — Grace Beyond Measure',
+                title: 'The Prodigal Son — Grace Beyond Measure (Apr 23, 2026)',
                 publishedAt: '2026-04-23T19:00:00Z',
-                meta: { preacher: 'Jake Siemens', topic: 'Grace & Forgiveness', scripture: 'Luke 15:11–32' },
+                meta: { preacher: 'Jake Siemens', topic: 'Grace & Forgiveness', scripture: 'Luke 15:11–32', searchKeywords: 'jake siemens prodigal son grace luke 15' },
                 isDemo: true,
             },
             {
                 videoId: 'demo3',
-                title: 'Faith Without Works Is Dead',
+                title: 'Faith Without Works Is Dead (Apr 20, 2026)',
                 publishedAt: '2026-04-20T09:30:00Z',
-                meta: { preacher: 'Jake Siemens', topic: 'Living Faith', scripture: 'James 2:14–26' },
+                meta: { preacher: 'Jake Siemens', topic: 'Living Faith', scripture: 'James 2:14–26', searchKeywords: 'jake siemens faith works dead james 2' },
                 isDemo: true,
             },
         ];
@@ -221,43 +278,18 @@
         buildPreacherDropdownFromList(demoSermons);
         allSermons = demoSermons;
         filtered = [...demoSermons];
-
-        grid.innerHTML = demoSermons.map(s => {
-            return `
-            <article class="sermon-card" data-id="${s.videoId}">
-                <div class="sermon-card-header">
-                    <div class="sermon-card-meta-top">
-                        <span class="sermon-live-badge" style="background:rgba(45,100,45,0.12);color:#2a5e2a;">Preview</span>
-                    </div>
-                    <h3 class="sermon-title">${s.title}</h3>
-                    <div class="sermon-tags">
-                        ${tag(s.meta.preacher,  'preacher')}
-                        ${tag(s.meta.scripture, 'scripture')}
-                        ${tag(s.meta.topic,     'topic')}
-                    </div>
-                </div>
-                <div class="yt-wrap" style="background:#1a1a1a; display:flex; align-items:center; justify-content:center;">
-                    <div style="text-align:center; color:rgba(255,255,255,0.5); padding:40px;">
-                        <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" style="margin:0 auto 16px;display:block;opacity:0.4">
-                            <circle cx="12" cy="12" r="10"/><polygon points="10,8 16,12 10,16"/>
-                        </svg>
-                        <p style="font-size:0.9rem;">Your sermon video will appear here</p>
-                    </div>
-                </div>
-            </article>`;
-        }).join('');
+        renderGrid();
     }
 
     function buildPreacherDropdownFromList(list) {
         const preachers = [...new Set(list.map(s => s.meta.preacher).filter(Boolean))].sort();
         preacherSelect.innerHTML = '<option value="">All Preachers</option>' +
-            preachers.map(p => `<option value="${p}">${p}</option>`).join('');
+            preachers.map(p => `<option value="${escapeHtml(p)}">${escapeHtml(p)}</option>`).join('');
     }
 
     // ── Main fetch + build ─────────────────────────────────
     async function loadSermons() {
         try {
-            // ── Demo mode: show placeholder cards if no real videos yet ──
             if (VCF_CONFIG.API_KEY === 'YOUR_API_KEY_HERE' || VCF_CONFIG.CHANNEL_ID === 'YOUR_CHANNEL_ID_HERE') {
                 showDemoSermons();
                 return;
@@ -266,7 +298,6 @@
             const playlistId   = await fetchUploadsPlaylistId();
             const uploadItems  = await fetchAllUploads(playlistId);
 
-            // Chunk into batches of 50 for the videos endpoint
             const videoIds = uploadItems.map(i => i.snippet.resourceId.videoId);
             const chunks   = [];
             for (let i = 0; i < videoIds.length; i += 50) {
@@ -277,16 +308,17 @@
             const detailMap   = Object.fromEntries(detailItems.map(d => [d.id, d]));
 
             allSermons = uploadItems.map(item => {
-                const videoId    = item.snippet.resourceId.videoId;
-                const detail     = detailMap[videoId];
-                const desc       = detail?.snippet?.description || '';
+                const videoId     = item.snippet.resourceId.videoId;
+                const detail      = detailMap[videoId];
+                const desc        = detail?.snippet?.description || '';
+                const tags        = detail?.snippet?.tags || [];
                 const publishedAt = item.snippet.publishedAt;
 
                 return {
                     videoId,
                     title: item.snippet.title,
                     publishedAt,
-                    meta: parseMeta(desc, item.snippet.title),
+                    meta: parseMeta(desc, item.snippet.title, tags),
                     isLive: item.snippet.title.toLowerCase().includes('live') ||
                             (detail?.snippet?.liveBroadcastContent === 'none' && false),
                 };
@@ -299,7 +331,6 @@
                 return timeB - timeA;
             });
 
-            // If channel has no videos yet, show demo cards
             if (allSermons.length === 0) {
                 showDemoSermons();
                 return;
@@ -319,16 +350,45 @@
 
     // ── Boot ───────────────────────────────────────────────
     document.addEventListener('DOMContentLoaded', () => {
-        grid           = document.getElementById('sermon-grid');
-        searchInput    = document.getElementById('sermon-search');
-        sortSelect     = document.getElementById('sermon-sort');
-        preacherSelect = document.getElementById('sermon-preacher');
-        emptyState     = document.getElementById('sermon-empty');
-        loadingEl      = document.getElementById('sermon-loading');
+        grid             = document.getElementById('sermon-grid');
+        searchInput      = document.getElementById('sermon-search');
+        sortSelect       = document.getElementById('sermon-sort');
+        preacherSelect   = document.getElementById('sermon-preacher');
+        emptyState       = document.getElementById('sermon-empty');
+        loadingEl        = document.getElementById('sermon-loading');
+        filterStatus     = document.getElementById('sermon-filter-status');
+        filterStatusText = document.getElementById('sermon-filter-status-text');
+        filterResetBtn   = document.getElementById('sermon-filter-reset');
 
         searchInput.addEventListener('input',  applyFilters);
         sortSelect.addEventListener('change',  applyFilters);
         preacherSelect.addEventListener('change', applyFilters);
+
+        if (filterResetBtn) {
+            filterResetBtn.addEventListener('click', () => {
+                searchInput.value = '';
+                preacherSelect.value = '';
+                applyFilters();
+            });
+        }
+
+        // Delegate clicks on preacher tags to filter by that preacher
+        if (grid) {
+            grid.addEventListener('click', (e) => {
+                const btn = e.target.closest('.sermon-tag--preacher');
+                if (btn && btn.dataset.preacher) {
+                    const preacherName = btn.dataset.preacher;
+                    if (preacherSelect) {
+                        preacherSelect.value = preacherName;
+                        applyFilters();
+                        const toolbar = document.querySelector('.sermon-toolbar');
+                        if (toolbar) {
+                            toolbar.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                }
+            });
+        }
 
         loadSermons();
     });

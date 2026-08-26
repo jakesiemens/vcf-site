@@ -83,6 +83,12 @@
                 </div>
             </div>
 
+            <!-- Active Filter Status Bar -->
+            <div id="sermon-filter-status" class="sermon-filter-status" hidden>
+                <div id="sermon-filter-status-text" class="sermon-filter-status-text"></div>
+                <button type="button" id="sermon-filter-reset" class="sermon-filter-reset-btn">Reset All Filters</button>
+            </div>
+
             <!-- Loading State -->
             <div id="sermon-loading" class="sermon-state-wrap">
                 <div class="sermon-spinner"></div>
@@ -91,9 +97,11 @@
 
             <!-- Empty State -->
             <div id="sermon-empty" class="sermon-state-wrap" hidden>
-                <div style="font-size: 2.5rem; margin-bottom: 16px;">📭</div>
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="margin:0 auto 16px;display:block;opacity:0.4">
+                    <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                </svg>
                 <h3>No sermons found</h3>
-                <p>Try adjusting your search or filters.</p>
+                <p>Try searching for a different scripture, preacher name, or keyword.</p>
             </div>
 
             <!-- Sermon Grid -->
@@ -151,7 +159,7 @@
 </footer>
 
 <script src="js/youtube-config.js?v=15.0"></script>
-<script src="js/sermons.js?v=17.0"></script>
+<script src="js/sermons.js?v=18.0"></script>
 <script src="app.js?v=15.0"></script>
 </body>
 </html>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 320" width="100%" height="100%">
+  <defs>
+    <!-- Smooth gradient for the radiant warm orange glow -->
+    <linearGradient id="warmOrangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F28538" />
+      <stop offset="100%" stop-color="#E2621C" />
+    </linearGradient>
+    <linearGradient id="softSlateGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#486581" />
+      <stop offset="100%" stop-color="#2E445A" />
+    </linearGradient>
+
+    <style>
+      .logo-title {
+        font-family: 'Lora', 'Georgia', 'Playfair Display', serif;
+        font-weight: 700;
+        font-size: 92px;
+        fill: #334E68;
+        letter-spacing: 0.12em;
+      }
+      .logo-subtitle {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        fill: #486581;
+        letter-spacing: 0.28em;
+      }
+    </style>
+  </defs>
+
+  <!-- Modern Radiant Cross & Sunburst Emblem -->
+  <g transform="translate(45, 30)">
+    <!-- Soft Slate Foundation Ring with Gap -->
+    <circle cx="130" cy="130" r="115" fill="none" stroke="#E2E8F0" stroke-width="4" />
+    <circle cx="130" cy="130" r="115" fill="none" stroke="url(#softSlateGrad)" stroke-width="6" stroke-linecap="round" stroke-dasharray="480 260" stroke-dashoffset="40" />
+
+    <!-- Radiant Warm Orange Arc -->
+    <path d="M 60 170 A 95 95 0 0 1 195 65" fill="none" stroke="url(#warmOrangeGrad)" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Modern Clean Cross in Soft Slate -->
+    <!-- Vertical Beam -->
+    <rect x="121" y="42" width="18" height="176" rx="4" fill="url(#softSlateGrad)" />
+    <!-- Horizontal Beam -->
+    <rect x="72" y="90" width="116" height="18" rx="4" fill="url(#softSlateGrad)" />
+    
+    <!-- Warm Orange Center Intersection Emblem -->
+    <circle cx="130" cy="99" r="8" fill="#E2621C" />
+    <circle cx="130" cy="99" r="4" fill="#FFFFFF" />
+
+    <!-- Dynamic Warm Orange Accent Petals / Flares at Base -->
+    <path d="M 130 185 Q 172 202 188 165 Q 172 218 130 206 Z" fill="url(#warmOrangeGrad)" />
+    <path d="M 130 185 Q 88 202 72 165 Q 88 218 130 206 Z" fill="#E2621C" opacity="0.75" />
+  </g>
+
+  <!-- Brand Typography Lockup -->
+  <g transform="translate(340, 0)">
+    <!-- "VICTORY" in Medium Warm Slate -->
+    <text x="0" y="160" class="logo-title">VICTORY</text>
+
+    <!-- Warm Orange Subtitle Line Decor -->
+    <line x1="2" y1="210" x2="60" y2="210" stroke="#E2621C" stroke-width="3.5" stroke-linecap="round" />
+    
+    <!-- "CHRISTIAN FELLOWSHIP" in Soft Slate -->
+    <text x="80" y="218" class="logo-subtitle">CHRISTIAN FELLOWSHIP</text>
+
+    <line x1="590" y1="210" x2="648" y2="210" stroke="#E2621C" stroke-width="3.5" stroke-linecap="round" />
+  </g>
+</svg>

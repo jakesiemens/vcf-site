@@ -1,0 +1,21 @@
+﻿# Credentials & Secrets
+client_secret.json
+token.json
+credentials.json
+
+# Audio & Video Media (hosted on YouTube)
+*.mp4
+*.mp3
+*.m4a
+*.wav
+temp_*
+/temp_audio/
+/temp_video/
+READY TO UPLOAD - REMAINING SERMONS/
+
+# Workspace & OS files
+.DS_Store
+Thumbs.db
+*.log
+scratch/
+.system_generated/

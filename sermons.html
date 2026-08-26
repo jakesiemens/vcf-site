@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sermons | Victory Christian Fellowship</title>
+    <meta name="description" content="Listen to sermons and Bible teaching from Victory Christian Fellowship. Browse by preacher, date, topic, or scripture.">
+    <link rel="stylesheet" href="style.css?v=11.0">
+    <link rel="icon" href="assets/logo.png?v=11.0" type="image/png">
+</head>
+<body>
+
+<div class="announcement-bar">
+    Join us this Sunday morning at 9:30 AM! · <a href="index.html#location">Directions & Times</a>
+</div>
+
+<header id="site-header">
+    <div class="container">
+        <div class="nav-inner">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.png?v=11.0" alt="Victory Christian Fellowship">
+            </a>
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="sermons.html" class="active">Sermons</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="index.html#location" class="btn btn-primary">Join Us</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="mobile-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<main>
+    <!-- HERO -->
+    <section class="hero hero--short">
+        <img class="hero-img" src="assets/sermon-preaching.jpg?v=13.0" alt="VCF Sermons & Teaching">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <span class="section-tag" style="color:var(--gold-light)">Audio Ministry</span>
+                <h1>Sermons &amp; Teaching</h1>
+                <p>Miss a service? Don't miss out on being edified in your faith. Browse our full library below.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- LIBRARY -->
+    <section id="sermon-library">
+        <div class="container">
+
+            <!-- Toolbar -->
+            <div class="sermon-toolbar">
+                <!-- Search -->
+                <div class="sermon-search-wrap">
+                    <svg class="sermon-search-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                    </svg>
+                    <input
+                        id="sermon-search"
+                        type="search"
+                        placeholder="Search by title, topic, scripture…"
+                        autocomplete="off"
+                    >
+                </div>
+
+                <!-- Filters -->
+                <div class="sermon-controls">
+                    <select id="sermon-preacher" title="Filter by preacher">
+                        <option value="">All Preachers</option>
+                    </select>
+
+                    <select id="sermon-sort" title="Sort sermons">
+                        <option value="date-desc">Newest First</option>
+                        <option value="date-asc">Oldest First</option>
+                        <option value="preacher">Preacher A–Z</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Loading State -->
+            <div id="sermon-loading" class="sermon-state-wrap">
+                <div class="sermon-spinner"></div>
+                <p>Loading sermons…</p>
+            </div>
+
+            <!-- Empty State -->
+            <div id="sermon-empty" class="sermon-state-wrap" hidden>
+                <div style="font-size: 2.5rem; margin-bottom: 16px;">📭</div>
+                <h3>No sermons found</h3>
+                <p>Try adjusting your search or filters.</p>
+            </div>
+
+            <!-- Sermon Grid -->
+            <div id="sermon-grid" class="sermon-grid"></div>
+
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <img src="assets/logo-light.png?v=11.0" alt="Victory Christian Fellowship" class="footer-logo-img">
+                <p>A community of believers dedicated to following Jesus Christ and sharing His love with our neighbors in Stanley and beyond.</p>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="sermons.html">Sermons</a></li>
+                    <li><a href="events.html">Events</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Visit Us</h4>
+                <p style="margin-bottom:12px">1534 NB-107<br>Stanley, NB &nbsp;E6B 1W2</p>
+                <p style="margin-bottom:6px;font-size:.85rem">☀️ Sunday Service: 9:30 AM</p>
+                <p style="margin-bottom:6px;font-size:.85rem">✝️ Wednesday Bible Study: 7:00 PM</p>
+                <p style="font-size:.85rem">🙏 Friday Youth Gathering: 7:00 PM</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Victory Christian Fellowship &nbsp;·&nbsp; Built for the Glory of God.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/youtube-config.js?v=15.0"></script>
+<script src="js/sermons.js?v=15.0"></script>
+<script src="app.js?v=15.0"></script>
+</body>
+</html>

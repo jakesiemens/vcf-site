@@ -468,17 +468,35 @@ section.alt-bg {
 }
 
 .icon-badge {
-    width: 48px;
-    height: 48px;
-    border-radius: 4px;
+    width: 52px;
+    height: 52px;
+    border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.4rem;
     margin-bottom: 24px;
-    background: var(--bg-alt);
-    border: 1px solid var(--border);
-    color: var(--primary);
+    background: rgba(234, 100, 42, 0.08);
+    border: 1px solid rgba(234, 100, 42, 0.22);
+    color: var(--orange-dark);
+    transition: var(--transition);
+}
+
+.icon-badge svg {
+    width: 26px;
+    height: 26px;
+    stroke: var(--orange-dark);
+    display: block;
+    transition: var(--transition);
+}
+
+.card:hover .icon-badge {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: var(--white);
+}
+
+.card:hover .icon-badge svg {
+    stroke: var(--white);
 }
 
 /* Service item rows */
@@ -1016,6 +1034,28 @@ footer h4 {
 .footer-links a:hover {
     color: var(--gold-light);
     padding-left: 2px;
+}
+
+.footer-schedule {
+    list-style: none;
+    padding: 0;
+    margin: 14px 0 0;
+}
+
+.footer-schedule-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 9px;
+    font-size: .86rem;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.footer-schedule-item svg {
+    width: 16px;
+    height: 16px;
+    color: var(--gold-light);
+    flex-shrink: 0;
 }
 
 .footer-bottom {

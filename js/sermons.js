@@ -1,6 +1,7 @@
 /**
  * ─────────────────────────────────────────────────────────
- *  VCF Sermon Library — YouTube Data API Integration
+ *  VCF Sermon Library — YouTube & Verified Archive Integration
+ *  Strictly Ordered by Preached Date (Not Upload Date)
  * ─────────────────────────────────────────────────────────
  */
 
@@ -60,7 +61,7 @@
             }
         }
 
-        // Fallback: extract date from title e.g. "(Aug 16, 2026)" or "(2024)"
+        // Fallback: extract date from title e.g. "(Aug 16, 2026)" or "(2024-04-15)"
         if (!meta.date && title) {
             const m = title.match(/\(([A-Za-z]{3,9}\s+\d{1,2},?\s+\d{4}|\d{4}-\d{2}-\d{2}|\d{4})\)/);
             if (m) meta.date = m[1];
@@ -86,7 +87,7 @@
         }
 
         if (meta.date) {
-            const parsed = new Date(meta.date);
+            const parsed = new Date(meta.date.includes('-') ? meta.date + 'T12:00:00' : meta.date);
             if (!isNaN(parsed.getTime())) {
                 meta.dateObj = parsed;
             }
@@ -99,12 +100,6 @@
 
         meta.searchKeywords = kwParts.join(' ').toLowerCase();
         return meta;
-    }
-
-    function formatDate(iso) {
-        return new Date(iso).toLocaleDateString('en-CA', {
-            year: 'numeric', month: 'long', day: 'numeric'
-        });
     }
 
     // ── Render a single sermon card ────────────────────────
@@ -122,6 +117,12 @@
                 ${escapeHtml(s.meta.scripture)}
                </span>`
             : '';
+        const dateTag = s.displayDate
+            ? `<span class="sermon-tag sermon-tag--date" title="Preached date: ${escapeHtml(s.displayDate)}">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                ${escapeHtml(s.displayDate)}
+               </span>`
+            : '';
 
         return `
         <article class="sermon-card" data-id="${s.videoId}">
@@ -129,6 +130,7 @@
                 ${s.isLive ? '<div class="sermon-card-meta-top"><span class="sermon-live-badge">Live Recording</span></div>' : ''}
                 <h3 class="sermon-title">${escapeHtml(s.title)}</h3>
                 <div class="sermon-tags">
+                    ${dateTag}
                     ${preacherBtn}
                     ${scriptureTag}
                 </div>
@@ -185,8 +187,9 @@
         });
 
         filtered.sort((a, b) => {
-            const timeA = (a.meta.dateObj ? a.meta.dateObj.getTime() : new Date(a.publishedAt).getTime());
-            const timeB = (b.meta.dateObj ? b.meta.dateObj.getTime() : new Date(b.publishedAt).getTime());
+            const timeA = a.preachedTimestamp || (a.meta.dateObj ? a.meta.dateObj.getTime() : 0);
+            const timeB = b.preachedTimestamp || (b.meta.dateObj ? b.meta.dateObj.getTime() : 0);
+
             if (sortVal === 'date-asc')  return timeA - timeB;
             if (sortVal === 'date-desc') return timeB - timeA;
             if (sortVal === 'preacher')  return (a.meta.preacher || 'zzz').localeCompare(b.meta.preacher || 'zzz');
@@ -210,124 +213,150 @@
         renderGrid();
     }
 
-    // ── Fetch full video details (description, tags) for a batch ─
-    async function fetchVideoDetails(videoIds) {
-        const ids   = videoIds.join(',');
-        const url   = `https://www.googleapis.com/youtube/v3/videos?part=snippet&id=${ids}&key=${VCF_CONFIG.API_KEY}`;
-        const resp  = await fetch(url);
-        const data  = await resp.json();
-        return data.items || [];
-    }
-
-    // ── Fetch uploads playlist ID from channel ─────────────
-    async function fetchUploadsPlaylistId() {
-        const url  = `https://www.googleapis.com/youtube/v3/channels?part=contentDetails&id=${VCF_CONFIG.CHANNEL_ID}&key=${VCF_CONFIG.API_KEY}`;
-        const resp = await fetch(url);
-        const data = await resp.json();
-        if (!data.items || data.items.length === 0) throw new Error('Channel not found. Check your CHANNEL_ID.');
-        return data.items[0].contentDetails.relatedPlaylists.uploads;
-    }
-
-    // ── Fetch all videos from uploads playlist ─────────────
-    async function fetchAllUploads(playlistId) {
-        let videos    = [];
-        let pageToken = '';
-
-        do {
-            const url  = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${playlistId}&maxResults=50&pageToken=${pageToken}&key=${VCF_CONFIG.API_KEY}`;
-            const resp = await fetch(url);
-            const data = await resp.json();
-
-            const items = (data.items || []).filter(
-                item => item.snippet.resourceId.kind === 'youtube#video'
-            );
-            videos = videos.concat(items);
-            pageToken = data.nextPageToken || '';
-        } while (pageToken);
-
-        return videos;
-    }
-
     // ── Demo sermon cards ──────────────────────────────────
     function showDemoSermons() {
         const demoSermons = [
             {
                 videoId: 'demo1',
-                title: 'Walking in the Spirit — A Life Set Free (Apr 27, 2026)',
+                title: 'Walking in the Spirit — A Life Set Free',
+                displayDate: 'Apr 27, 2026',
+                preachedTimestamp: new Date('2026-04-27T12:00:00').getTime(),
                 publishedAt: '2026-04-27T09:30:00Z',
-                meta: { preacher: 'Jake Siemens', topic: 'The Holy Spirit', scripture: 'Galatians 5:16–25', searchKeywords: 'jake siemens walking holy spirit galatians 5' },
+                meta: { preacher: 'Jake Siemens', topic: 'The Holy Spirit', scripture: 'Galatians 5:16–25', date: 'Apr 27, 2026', searchKeywords: 'jake siemens walking holy spirit galatians 5' },
                 isDemo: true,
             },
             {
                 videoId: 'demo2',
-                title: 'The Prodigal Son — Grace Beyond Measure (Apr 23, 2026)',
+                title: 'The Prodigal Son — Grace Beyond Measure',
+                displayDate: 'Apr 23, 2026',
+                preachedTimestamp: new Date('2026-04-23T12:00:00').getTime(),
                 publishedAt: '2026-04-23T19:00:00Z',
-                meta: { preacher: 'Jake Siemens', topic: 'Grace & Forgiveness', scripture: 'Luke 15:11–32', searchKeywords: 'jake siemens prodigal son grace luke 15' },
+                meta: { preacher: 'Jake Siemens', topic: 'Grace & Forgiveness', scripture: 'Luke 15:11–32', date: 'Apr 23, 2026', searchKeywords: 'jake siemens prodigal son grace luke 15' },
                 isDemo: true,
             },
             {
                 videoId: 'demo3',
-                title: 'Faith Without Works Is Dead (Apr 20, 2026)',
+                title: 'Faith Without Works Is Dead',
+                displayDate: 'Apr 20, 2026',
+                preachedTimestamp: new Date('2026-04-20T12:00:00').getTime(),
                 publishedAt: '2026-04-20T09:30:00Z',
-                meta: { preacher: 'Jake Siemens', topic: 'Living Faith', scripture: 'James 2:14–26', searchKeywords: 'jake siemens faith works dead james 2' },
+                meta: { preacher: 'Jake Siemens', topic: 'Living Faith', scripture: 'James 2:14–26', date: 'Apr 20, 2026', searchKeywords: 'jake siemens faith works dead james 2' },
                 isDemo: true,
             },
         ];
 
         loadingEl.hidden = true;
-        buildPreacherDropdownFromList(demoSermons);
         allSermons = demoSermons;
+        buildPreacherDropdown();
         filtered = [...demoSermons];
         renderGrid();
-    }
-
-    function buildPreacherDropdownFromList(list) {
-        const preachers = [...new Set(list.map(s => s.meta.preacher).filter(Boolean))].sort();
-        preacherSelect.innerHTML = '<option value="">All Preachers</option>' +
-            preachers.map(p => `<option value="${escapeHtml(p)}">${escapeHtml(p)}</option>`).join('');
     }
 
     // ── Main fetch + build ─────────────────────────────────
     async function loadSermons() {
         try {
-            if (VCF_CONFIG.API_KEY === 'YOUR_API_KEY_HERE' || VCF_CONFIG.CHANNEL_ID === 'YOUR_CHANNEL_ID_HERE') {
-                showDemoSermons();
-                return;
+            let loaded = false;
+
+            // 1. Load verified clean archive first (instant, 0 quota, authentic preached dates)
+            try {
+                const resp = await fetch('sermons_youtube_archive_clean.json?v=' + Date.now());
+                if (resp.ok) {
+                    const data = await resp.json();
+                    const items = Object.values(data);
+                    if (items.length > 0) {
+                        allSermons = items.map(item => {
+                            const dateStr = item.preached_date || item.date || '';
+                            const dateObj = dateStr ? new Date(dateStr.includes('-') ? dateStr + 'T12:00:00' : dateStr) : null;
+                            const ts = item.preached_timestamp || (dateObj && !isNaN(dateObj.getTime()) ? dateObj.getTime() : 0);
+                            const cleanTitle = item.title || item.youtube_title || '';
+                            const displayDate = item.display_date || item.short_date || item.date || '';
+
+                            return {
+                                videoId: item.videoId,
+                                title: cleanTitle,
+                                displayDate: displayDate,
+                                preachedTimestamp: ts,
+                                publishedAt: item.uploadedAt || dateStr,
+                                meta: {
+                                    preacher: item.speaker || '',
+                                    scripture: item.passage || '',
+                                    date: displayDate,
+                                    dateObj: dateObj,
+                                    searchKeywords: [cleanTitle, item.speaker, item.passage, displayDate, dateStr].filter(Boolean).join(' ').toLowerCase()
+                                },
+                                isLive: cleanTitle.toLowerCase().includes('live')
+                            };
+                        });
+                        loaded = true;
+                    }
+                }
+            } catch (archiveErr) {
+                console.warn('[VCF Sermons] Could not fetch local clean archive, trying YouTube API fallback:', archiveErr);
             }
 
-            const playlistId   = await fetchUploadsPlaylistId();
-            const uploadItems  = await fetchAllUploads(playlistId);
+            // 2. YouTube Data API fallback (if local archive was unavailable)
+            if (!loaded) {
+                if (VCF_CONFIG.API_KEY === 'YOUR_API_KEY_HERE' || VCF_CONFIG.CHANNEL_ID === 'YOUR_CHANNEL_ID_HERE') {
+                    showDemoSermons();
+                    return;
+                }
 
-            const videoIds = uploadItems.map(i => i.snippet.resourceId.videoId);
-            const chunks   = [];
-            for (let i = 0; i < videoIds.length; i += 50) {
-                chunks.push(videoIds.slice(i, i + 50));
+                const chUrl = `https://www.googleapis.com/youtube/v3/channels?part=contentDetails&id=${VCF_CONFIG.CHANNEL_ID}&key=${VCF_CONFIG.API_KEY}`;
+                const chResp = await fetch(chUrl);
+                const chData = await chResp.json();
+                if (!chData.items || chData.items.length === 0) throw new Error('Channel not found');
+                const playlistId = chData.items[0].contentDetails.relatedPlaylists.uploads;
+
+                let videos = [];
+                let pageToken = '';
+                do {
+                    const plUrl = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${playlistId}&maxResults=50&pageToken=${pageToken}&key=${VCF_CONFIG.API_KEY}`;
+                    const plResp = await fetch(plUrl);
+                    const plData = await plResp.json();
+                    const items = (plData.items || []).filter(i => i.snippet.resourceId.kind === 'youtube#video');
+                    videos = videos.concat(items);
+                    pageToken = plData.nextPageToken || '';
+                } while (pageToken);
+
+                const videoIds = videos.map(i => i.snippet.resourceId.videoId);
+                const chunks = [];
+                for (let i = 0; i < videoIds.length; i += 50) {
+                    chunks.push(videoIds.slice(i, i + 50));
+                }
+
+                const detailItems = (await Promise.all(chunks.map(async ids => {
+                    const url = `https://www.googleapis.com/youtube/v3/videos?part=snippet&id=${ids.join(',')}&key=${VCF_CONFIG.API_KEY}`;
+                    const resp = await fetch(url);
+                    const data = await resp.json();
+                    return data.items || [];
+                }))).flat();
+                const detailMap = Object.fromEntries(detailItems.map(d => [d.id, d]));
+
+                allSermons = videos.map(item => {
+                    const videoId     = item.snippet.resourceId.videoId;
+                    const detail      = detailMap[videoId];
+                    const desc        = detail?.snippet?.description || '';
+                    const tags        = detail?.snippet?.tags || [];
+                    const publishedAt = item.snippet.publishedAt;
+                    const meta        = parseMeta(desc, item.snippet.title, tags);
+                    const ts          = meta.dateObj ? meta.dateObj.getTime() : new Date(publishedAt).getTime();
+
+                    return {
+                        videoId,
+                        title: item.snippet.title,
+                        displayDate: meta.date || '',
+                        preachedTimestamp: ts,
+                        publishedAt,
+                        meta,
+                        isLive: item.snippet.title.toLowerCase().includes('live')
+                    };
+                });
             }
 
-            const detailItems = (await Promise.all(chunks.map(fetchVideoDetails))).flat();
-            const detailMap   = Object.fromEntries(detailItems.map(d => [d.id, d]));
-
-            allSermons = uploadItems.map(item => {
-                const videoId     = item.snippet.resourceId.videoId;
-                const detail      = detailMap[videoId];
-                const desc        = detail?.snippet?.description || '';
-                const tags        = detail?.snippet?.tags || [];
-                const publishedAt = item.snippet.publishedAt;
-
-                return {
-                    videoId,
-                    title: item.snippet.title,
-                    publishedAt,
-                    meta: parseMeta(desc, item.snippet.title, tags),
-                    isLive: item.snippet.title.toLowerCase().includes('live') ||
-                            (detail?.snippet?.liveBroadcastContent === 'none' && false),
-                };
-            });
-
-            // Default: newest preached first
+            // Strictly sort newest preached first
             allSermons.sort((a, b) => {
-                const timeA = (a.meta.dateObj ? a.meta.dateObj.getTime() : new Date(a.publishedAt).getTime());
-                const timeB = (b.meta.dateObj ? b.meta.dateObj.getTime() : new Date(b.publishedAt).getTime());
+                const timeA = a.preachedTimestamp || (a.meta.dateObj ? a.meta.dateObj.getTime() : 0);
+                const timeB = b.preachedTimestamp || (b.meta.dateObj ? b.meta.dateObj.getTime() : 0);
                 return timeB - timeA;
             });
 
@@ -343,7 +372,7 @@
             renderGrid();
 
         } catch (err) {
-            console.warn('[VCF Sermons] YouTube Data API failed, falling back to preview mode:', err);
+            console.warn('[VCF Sermons] Error loading sermons:', err);
             showDemoSermons();
         }
     }

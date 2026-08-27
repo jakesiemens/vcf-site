@@ -6,7 +6,10 @@
     "date": "August 16, 2026",
     "uploadedAt": "2026-08-26 08:01:25",
     "short_date": "Aug 16, 2026",
-    "youtube_title": "Galatians 5:1-16 - Corny Janzen (Aug 16, 2026) | Victory Christian Fellowship"
+    "youtube_title": "Galatians 5:1-16 - Corny Janzen (Aug 16, 2026) | Victory Christian Fellowship",
+    "preached_date": "2026-08-16",
+    "display_date": "August 16, 2026",
+    "preached_timestamp": 1786849200000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2026/08/Open-Sharing-260809_1034.mp3": {
     "videoId": "CzV9IxDk7K8",
@@ -15,7 +18,10 @@
     "date": "August 10, 2026",
     "uploadedAt": "2026-08-26 08:02:50",
     "short_date": "Aug 10, 2026",
-    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Aug 10, 2026) | VCF"
+    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Aug 10, 2026) | VCF",
+    "preached_date": "2026-08-10",
+    "display_date": "August 10, 2026",
+    "preached_timestamp": 1786330800000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2026/08/Jake-Driedger-260802_1044.mp3": {
     "videoId": "iDDiTjG5cO4",
@@ -24,7 +30,10 @@
     "date": "August 02, 2026",
     "uploadedAt": "2026-08-26 08:04:08",
     "short_date": "Aug 02, 2026",
-    "youtube_title": "Romans 3:21 The Righteousness of God Revealed - Jake Driedger (Aug 02, 2026) | VCF"
+    "youtube_title": "Romans 3:21 The Righteousness of God Revealed - Jake Driedger (Aug 02, 2026) | VCF",
+    "preached_date": "2026-08-02",
+    "display_date": "August 02, 2026",
+    "preached_timestamp": 1785639600000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2026/07/Open-Sharing-260726_1031.mp3": {
     "videoId": "ZMgG5QGZYyA",
@@ -33,7 +42,21 @@
     "date": "July 26, 2026",
     "uploadedAt": "2026-08-26 08:05:08",
     "short_date": "Jul 26, 2026",
-    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Jul 26, 2026) | VCF"
+    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Jul 26, 2026) | VCF",
+    "preached_date": "2026-07-26",
+    "display_date": "July 26, 2026",
+    "preached_timestamp": 1785034800000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2026/07/Corny-Janzen-260719_1108.mp3": {
+    "videoId": "RIlCmMC32Os",
+    "title": "Zacchaeus Example of Humility",
+    "speaker": "Corny Janzen",
+    "date": "July 19, 2026",
+    "uploadedAt": "2026-08-26 22:29:32",
+    "youtube_title": "Zacchaeus Example of Humility - Corny Janzen (July 19, 2026) | Victory Christian Fellowship",
+    "preached_date": "2026-07-19",
+    "display_date": "July 19, 2026",
+    "preached_timestamp": 1784430000000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2026/07/Jerry-Mawhorr-3-260712_1033.mp3": {
     "videoId": "qi3x5rSf4uw",
@@ -42,7 +65,21 @@
     "date": "July 12, 2026",
     "uploadedAt": "2026-08-26 08:07:55",
     "short_date": "Jul 12, 2026",
-    "youtube_title": "The Revelation of Jesus Christ - Jerry Mawhorr (Jul 12, 2026) | Victory Christian Fellowship"
+    "youtube_title": "The Revelation of Jesus Christ - Jerry Mawhorr (Jul 12, 2026) | Victory Christian Fellowship",
+    "preached_date": "2026-07-12",
+    "display_date": "July 12, 2026",
+    "preached_timestamp": 1783825200000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2026/07/Jerry-Mawhorr-4-260712_1829.mp3": {
+    "videoId": "4pvtT16ol08",
+    "title": "In This World You Shall Have Tribulation",
+    "speaker": "Jerry Mawhorr",
+    "date": "July 12, 2026",
+    "uploadedAt": "2026-08-27 04:37:48",
+    "youtube_title": "In This World You Shall Have Tribulation - Jerry Mawhorr (July 12, 2026) | VCF",
+    "preached_date": "2026-07-12",
+    "display_date": "July 12, 2026",
+    "preached_timestamp": 1783825200000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2026/07/Jerry-Mawhorr-2-260710_1923.mp3": {
     "videoId": "tgjKuOCKgHQ",
@@ -51,7 +88,10 @@
     "date": "July 11, 2026",
     "uploadedAt": "2026-08-26 08:08:46",
     "short_date": "Jul 11, 2026",
-    "youtube_title": "The Binary Nature of God - Jerry Mawhorr (Jul 11, 2026) | Victory Christian Fellowship"
+    "youtube_title": "The Binary Nature of God - Jerry Mawhorr (Jul 11, 2026) | Victory Christian Fellowship",
+    "preached_date": "2026-07-11",
+    "display_date": "July 11, 2026",
+    "preached_timestamp": 1783738800000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2026/07/Jerry-Mawhorr-260710_1923.mp3": {
     "videoId": "dV0enLR8a3Q",
@@ -60,7 +100,10 @@
     "date": "July 10, 2026",
     "uploadedAt": "2026-08-26 08:09:34",
     "short_date": "Jul 10, 2026",
-    "youtube_title": "Right in Our Own Eyes - Jerry Mawhorr (Jul 10, 2026) | Victory Christian Fellowship"
+    "youtube_title": "Right in Our Own Eyes - Jerry Mawhorr (Jul 10, 2026) | Victory Christian Fellowship",
+    "preached_date": "2026-07-10",
+    "display_date": "July 10, 2026",
+    "preached_timestamp": 1783652400000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2026/07/Jake-Siemens-260705_1032.mp3": {
     "videoId": "mjcQbI_0xdw",
@@ -69,43 +112,10 @@
     "date": "July 05, 2026",
     "uploadedAt": "2026-08-26 08:10:44",
     "short_date": "Jul 05, 2026",
-    "youtube_title": "The Government of God - Jake Siemens (Jul 05, 2026) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2026/06/Jake-Driedger-260628_1030.mp3": {
-    "videoId": "QWwszjCms4A",
-    "title": "Opening Exhortation",
-    "speaker": "Jake Driedger",
-    "date": "2024",
-    "uploadedAt": "2026-08-26 08:11:50",
-    "short_date": "2024",
-    "youtube_title": "Opening Exhortation - Jake Driedger (2024) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2026/06/Corny-Janzen-260616_0558.mp3": {
-    "videoId": "PPcEJWb66fs",
-    "title": "Being Taught of Christ",
-    "speaker": "Corny Janzen",
-    "date": "June 21, 2026",
-    "uploadedAt": "2026-08-26 08:13:04",
-    "short_date": "Jun 21, 2026",
-    "youtube_title": "Being Taught of Christ - Corny Janzen (Jun 21, 2026) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2026/06/Jake-Siemens-260609_0603.mp3": {
-    "videoId": "5x6eivBycgg",
-    "title": "The Marks of a True Believer",
-    "speaker": "Jake Siemens",
-    "date": "June 14, 2026",
-    "uploadedAt": "2026-08-26 08:13:46",
-    "short_date": "Jun 14, 2026",
-    "youtube_title": "The Marks of a True Believer - Jake Siemens (Jun 14, 2026) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2026/06/Open-Sharing-260602_0552.mp3": {
-    "videoId": "tsjlDIrIUaY",
-    "title": "Open Sharing & Testimonies",
-    "speaker": "Victory Christian Fellowship",
-    "date": "June 15, 2026",
-    "uploadedAt": "2026-08-26 08:14:53",
-    "short_date": "Jun 15, 2026",
-    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Jun 15, 2026) | VCF"
+    "youtube_title": "The Government of God - Jake Siemens (Jul 05, 2026) | Victory Christian Fellowship",
+    "preached_date": "2026-07-05",
+    "display_date": "July 05, 2026",
+    "preached_timestamp": 1783220400000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2026/06/Jake-Driedger-260526_0551.mp3": {
     "videoId": "r34KVOyvU5o",
@@ -114,32 +124,46 @@
     "date": "June 28, 2026",
     "uploadedAt": "2026-08-26 08:16:08",
     "short_date": "Jun 28, 2026",
-    "youtube_title": "Is There Any Profit in the Law? - Jake Driedger (Jun 28, 2026) | Victory Christian Fellowship"
+    "youtube_title": "Is There Any Profit in the Law? - Jake Driedger (Jun 28, 2026) | Victory Christian Fellowship",
+    "preached_date": "2026-06-28",
+    "display_date": "June 28, 2026",
+    "preached_timestamp": 1782615600000
   },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2026/06/Jake-Siemens-260519_0618.mp3": {
-    "videoId": "n2_X1yQBmDc",
-    "title": "The True Mission of Jesus. Mark 1:29-45",
-    "speaker": "Jake Siemens",
-    "date": "May 24, 2026",
-    "uploadedAt": "2026-08-26 08:17:10",
-    "short_date": "May 24, 2026",
-    "youtube_title": "The True Mission of Jesus. Mark 1:29-45 - Jake Siemens (May 24, 2026) | VCF"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2026/05/Corny-Janzen-260512_0600.mp3": {
-    "videoId": "tQFXTaBcS1o",
-    "title": "Purpose of Good Works",
+  "https://victorychristianfellowship.ca/wp-content/uploads/2026/06/Corny-Janzen-260616_0558.mp3": {
+    "videoId": "PPcEJWb66fs",
+    "title": "Being Taught of Christ",
     "speaker": "Corny Janzen",
-    "date": "May 17, 2026",
-    "uploadedAt": "2026-08-26 08:18:46",
-    "short_date": "May 17, 2026",
-    "youtube_title": "Purpose of Good Works - Corny Janzen (May 17, 2026) | Victory Christian Fellowship"
+    "date": "June 21, 2026",
+    "uploadedAt": "2026-08-26 08:13:04",
+    "short_date": "Jun 21, 2026",
+    "youtube_title": "Being Taught of Christ - Corny Janzen (Jun 21, 2026) | Victory Christian Fellowship",
+    "preached_date": "2026-06-21",
+    "display_date": "June 21, 2026",
+    "preached_timestamp": 1782010800000
   },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2026/05/John-Banman-260505_0611.mp3": {
-    "videoId": "MwQSwRCgeZ0",
-    "title": "1 Thessalonians Intro",
-    "speaker": "John Banman",
-    "date": "May 10, 2026",
-    "uploadedAt": "2026-08-26 08:19:50"
+  "https://victorychristianfellowship.ca/wp-content/uploads/2026/06/Open-Sharing-260602_0552.mp3": {
+    "videoId": "tsjlDIrIUaY",
+    "title": "Open Sharing & Testimonies",
+    "speaker": "Victory Christian Fellowship",
+    "date": "June 15, 2026",
+    "uploadedAt": "2026-08-26 08:14:53",
+    "short_date": "Jun 15, 2026",
+    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Jun 15, 2026) | VCF",
+    "preached_date": "2026-06-15",
+    "display_date": "June 15, 2026",
+    "preached_timestamp": 1781492400000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2026/06/Jake-Siemens-260609_0603.mp3": {
+    "videoId": "5x6eivBycgg",
+    "title": "The Marks of a True Believer",
+    "speaker": "Jake Siemens",
+    "date": "June 14, 2026",
+    "uploadedAt": "2026-08-26 08:13:46",
+    "short_date": "Jun 14, 2026",
+    "youtube_title": "The Marks of a True Believer - Jake Siemens (Jun 14, 2026) | Victory Christian Fellowship",
+    "preached_date": "2026-06-14",
+    "display_date": "June 14, 2026",
+    "preached_timestamp": 1781406000000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2026/04/Jake-Driedger-260421_0619.mp3": {
     "videoId": "0Ga302gEpxY",
@@ -148,16 +172,56 @@
     "date": "May 31, 2026",
     "uploadedAt": "2026-08-26 08:25:28",
     "short_date": "May 31, 2026",
-    "youtube_title": "\"The True Jew\" - Jake Driedger (May 31, 2026) | Victory Christian Fellowship"
+    "youtube_title": "\"The True Jew\" - Jake Driedger (May 31, 2026) | Victory Christian Fellowship",
+    "preached_date": "2026-05-31",
+    "display_date": "May 31, 2026",
+    "preached_timestamp": 1780196400000
   },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2026/04/Corny-Janzen-260414_0602.mp3": {
-    "videoId": "RxtCQjDOTzI",
-    "title": "Galatians 4:1-16",
+  "https://victorychristianfellowship.ca/wp-content/uploads/2026/06/Jake-Siemens-260519_0618.mp3": {
+    "videoId": "n2_X1yQBmDc",
+    "title": "The True Mission of Jesus. Mark 1:29-45",
+    "speaker": "Jake Siemens",
+    "date": "May 24, 2026",
+    "uploadedAt": "2026-08-26 08:17:10",
+    "short_date": "May 24, 2026",
+    "youtube_title": "The True Mission of Jesus. Mark 1:29-45 - Jake Siemens (May 24, 2026) | VCF",
+    "preached_date": "2026-05-24",
+    "display_date": "May 24, 2026",
+    "preached_timestamp": 1779591600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2026/05/Corny-Janzen-260512_0600.mp3": {
+    "videoId": "tQFXTaBcS1o",
+    "title": "Purpose of Good Works",
     "speaker": "Corny Janzen",
-    "date": "April 19, 2026",
-    "uploadedAt": "2026-08-26 08:28:39",
-    "short_date": "Apr 19, 2026",
-    "youtube_title": "Galatians 4:1-16 - Corny Janzen (Apr 19, 2026) | Victory Christian Fellowship"
+    "date": "May 17, 2026",
+    "uploadedAt": "2026-08-26 08:18:46",
+    "short_date": "May 17, 2026",
+    "youtube_title": "Purpose of Good Works - Corny Janzen (May 17, 2026) | Victory Christian Fellowship",
+    "preached_date": "2026-05-17",
+    "display_date": "May 17, 2026",
+    "preached_timestamp": 1778986800000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2026/05/John-Banman-260505_0611.mp3": {
+    "videoId": "MwQSwRCgeZ0",
+    "title": "1 Thessalonians Intro",
+    "speaker": "John Banman",
+    "date": "May 10, 2026",
+    "uploadedAt": "2026-08-26 08:19:50",
+    "preached_date": "2026-05-10",
+    "display_date": "May 10, 2026",
+    "preached_timestamp": 1778382000000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2026/05/Jake-Siemens-260428_0623.mp3": {
+    "videoId": "iiQ1ffTm8AI",
+    "title": "The Authority of the Word of Jesus (Mark 1:21-28)",
+    "speaker": "Jake Siemens",
+    "date": "May 03, 2026",
+    "uploadedAt": "2026-08-26 12:46:07",
+    "short_date": "May 03, 2026",
+    "youtube_title": "The Authority of the Word of Jesus (Mark 1:21-28) - Jake Siemens (May 03, 2026) | VCF",
+    "preached_date": "2026-05-03",
+    "display_date": "May 03, 2026",
+    "preached_timestamp": 1777777200000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2026/04/Jake-Driedger-260331_0638.mp3": {
     "videoId": "zpC5eJJhfO4",
@@ -166,61 +230,32 @@
     "date": "April 26, 2026",
     "uploadedAt": "2026-08-26 08:33:10",
     "short_date": "Apr 26, 2026",
-    "youtube_title": "What Are You Doing? - Jake Driedger (Apr 26, 2026) | Victory Christian Fellowship"
+    "youtube_title": "What Are You Doing? - Jake Driedger (Apr 26, 2026) | Victory Christian Fellowship",
+    "preached_date": "2026-04-26",
+    "display_date": "April 26, 2026",
+    "preached_timestamp": 1777172400000
   },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2026/04/John-Banman-260324_0554.mp3": {
-    "videoId": "pBz_LpB3yx4",
-    "title": "In Christ",
-    "speaker": "John Banman",
-    "date": "March 29, 2026",
-    "uploadedAt": "2026-08-26 08:35:30",
-    "short_date": "Mar 29, 2026",
-    "youtube_title": "In Christ - John Banman (Mar 29, 2026) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2026/03/Open-Sharing-260317_0555.mp3": {
-    "videoId": "wh84iAcIsSQ",
-    "title": "Open Sharing & Testimonies",
-    "speaker": "Victory Christian Fellowship",
-    "date": "March 23, 2026",
-    "uploadedAt": "2026-08-26 08:37:27",
-    "short_date": "Mar 23, 2026",
-    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Mar 23, 2026) | VCF"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2026/03/Corny-Janzen-260310_0554.mp3": {
-    "videoId": "_ItpJQ2iET8",
-    "title": "Building Convictions",
+  "https://victorychristianfellowship.ca/wp-content/uploads/2026/04/Corny-Janzen-260414_0602.mp3": {
+    "videoId": "RxtCQjDOTzI",
+    "title": "Galatians 4:1-16",
     "speaker": "Corny Janzen",
-    "date": "March 15, 2026",
-    "uploadedAt": "2026-08-26 08:39:27",
-    "short_date": "Mar 15, 2026",
-    "youtube_title": "Building Convictions - Corny Janzen (Mar 15, 2026) | Victory Christian Fellowship"
+    "date": "April 19, 2026",
+    "uploadedAt": "2026-08-26 08:28:39",
+    "short_date": "Apr 19, 2026",
+    "youtube_title": "Galatians 4:1-16 - Corny Janzen (Apr 19, 2026) | Victory Christian Fellowship",
+    "preached_date": "2026-04-19",
+    "display_date": "April 19, 2026",
+    "preached_timestamp": 1776567600000
   },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2026/03/Open-Sharing-260303_0609.mp3": {
-    "videoId": "pk4BFJS47vs",
-    "title": "Open Sharing & Testimonies",
-    "speaker": "Victory Christian Fellowship",
-    "date": "March 09, 2026",
-    "uploadedAt": "2026-08-26 08:41:55",
-    "short_date": "Mar 09, 2026",
-    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Mar 09, 2026) | VCF"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2026/03/Jake-Siemens-260224_0715.mp3": {
-    "videoId": "OJkGBNBRhKc",
-    "title": "The Beginning of the Gospel of Jesus Christ. Mark 1:1-13",
+  "https://victorychristianfellowship.ca/wp-content/uploads/2026/04/Jake-Siemens-260407_0548.mp3": {
+    "videoId": "jBFa6oUjYiA",
+    "title": "The Gospel of the Kingdom Demands a Response (Mark 1:14-20)",
     "speaker": "Jake Siemens",
-    "date": "March 01, 2026",
-    "uploadedAt": "2026-08-26 08:44:01",
-    "short_date": "Mar 01, 2026",
-    "youtube_title": "The Beginning of the Gospel of Jesus Christ. Mark 1:1-13 - Jake Siemens (Mar 01, 2026) | VCF"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2026/03/John-Banman-260217_0650.mp3": {
-    "videoId": "NOfDGbeEDzo",
-    "title": "God is Able",
-    "speaker": "John Banman",
-    "date": "February 22, 2026",
-    "uploadedAt": "2026-08-26 08:46:47",
-    "short_date": "Feb 22, 2026",
-    "youtube_title": "God is Able - John Banman (Feb 22, 2026) | Victory Christian Fellowship"
+    "date": "April 12, 2026",
+    "uploadedAt": "2026-08-26 13:47:14",
+    "preached_date": "2026-04-12",
+    "display_date": "April 12, 2026",
+    "preached_timestamp": 1775962800000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2026/03/Pete-Driedger-260127_0700.mp3": {
     "videoId": "4SdtnJHD_qE",
@@ -229,7 +264,82 @@
     "date": "April 05, 2026",
     "uploadedAt": "2026-08-26 08:47:38",
     "short_date": "Apr 05, 2026",
-    "youtube_title": "Without Excuse - Jake Driedger (Apr 05, 2026) | Victory Christian Fellowship"
+    "youtube_title": "Without Excuse - Jake Driedger (Apr 05, 2026) | Victory Christian Fellowship",
+    "preached_date": "2026-04-05",
+    "display_date": "April 05, 2026",
+    "preached_timestamp": 1775358000000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2026/04/John-Banman-260324_0554.mp3": {
+    "videoId": "pBz_LpB3yx4",
+    "title": "In Christ",
+    "speaker": "John Banman",
+    "date": "March 29, 2026",
+    "uploadedAt": "2026-08-26 08:35:30",
+    "short_date": "Mar 29, 2026",
+    "youtube_title": "In Christ - John Banman (Mar 29, 2026) | Victory Christian Fellowship",
+    "preached_date": "2026-03-29",
+    "display_date": "March 29, 2026",
+    "preached_timestamp": 1774753200000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2026/03/Open-Sharing-260317_0555.mp3": {
+    "videoId": "wh84iAcIsSQ",
+    "title": "Open Sharing & Testimonies",
+    "speaker": "Victory Christian Fellowship",
+    "date": "March 23, 2026",
+    "uploadedAt": "2026-08-26 08:37:27",
+    "short_date": "Mar 23, 2026",
+    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Mar 23, 2026) | VCF",
+    "preached_date": "2026-03-23",
+    "display_date": "March 23, 2026",
+    "preached_timestamp": 1774234800000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2026/03/Corny-Janzen-260310_0554.mp3": {
+    "videoId": "_ItpJQ2iET8",
+    "title": "Building Convictions",
+    "speaker": "Corny Janzen",
+    "date": "March 15, 2026",
+    "uploadedAt": "2026-08-26 08:39:27",
+    "short_date": "Mar 15, 2026",
+    "youtube_title": "Building Convictions - Corny Janzen (Mar 15, 2026) | Victory Christian Fellowship",
+    "preached_date": "2026-03-15",
+    "display_date": "March 15, 2026",
+    "preached_timestamp": 1773543600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2026/03/Open-Sharing-260303_0609.mp3": {
+    "videoId": "pk4BFJS47vs",
+    "title": "Open Sharing & Testimonies",
+    "speaker": "Victory Christian Fellowship",
+    "date": "March 09, 2026",
+    "uploadedAt": "2026-08-26 08:41:55",
+    "short_date": "Mar 09, 2026",
+    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Mar 09, 2026) | VCF",
+    "preached_date": "2026-03-09",
+    "display_date": "March 09, 2026",
+    "preached_timestamp": 1773025200000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2026/03/Jake-Siemens-260224_0715.mp3": {
+    "videoId": "OJkGBNBRhKc",
+    "title": "The Beginning of the Gospel of Jesus Christ. Mark 1:1-13",
+    "speaker": "Jake Siemens",
+    "date": "March 01, 2026",
+    "uploadedAt": "2026-08-26 08:44:01",
+    "short_date": "Mar 01, 2026",
+    "youtube_title": "The Beginning of the Gospel of Jesus Christ. Mark 1:1-13 - Jake Siemens (Mar 01, 2026) | VCF",
+    "preached_date": "2026-03-01",
+    "display_date": "March 01, 2026",
+    "preached_timestamp": 1772337600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2026/03/John-Banman-260217_0650.mp3": {
+    "videoId": "NOfDGbeEDzo",
+    "title": "God is Able",
+    "speaker": "John Banman",
+    "date": "February 22, 2026",
+    "uploadedAt": "2026-08-26 08:46:47",
+    "short_date": "Feb 22, 2026",
+    "youtube_title": "God is Able - John Banman (Feb 22, 2026) | Victory Christian Fellowship",
+    "preached_date": "2026-02-22",
+    "display_date": "February 22, 2026",
+    "preached_timestamp": 1771732800000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2026/03/Jake-Driedger-260125_1201.mp3": {
     "videoId": "nkej51uGc2c",
@@ -238,7 +348,10 @@
     "date": "January 25, 2026",
     "uploadedAt": "2026-08-26 08:50:17",
     "short_date": "Jan 25, 2026",
-    "youtube_title": "Title Coming - Jake Driedger (Jan 25, 2026) | Victory Christian Fellowship"
+    "youtube_title": "Title Coming - Jake Driedger (Jan 25, 2026) | Victory Christian Fellowship",
+    "preached_date": "2026-01-25",
+    "display_date": "January 25, 2026",
+    "preached_timestamp": 1769313600000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2026/03/Corny-Janzen-260111_1158.mp3": {
     "videoId": "PcGB8MRVlXs",
@@ -247,7 +360,10 @@
     "date": "January 11, 2026",
     "uploadedAt": "2026-08-26 08:52:40",
     "short_date": "Jan 11, 2026",
-    "youtube_title": "Title Coming - Corny Janzen (Jan 11, 2026) | Victory Christian Fellowship"
+    "youtube_title": "Title Coming - Corny Janzen (Jan 11, 2026) | Victory Christian Fellowship",
+    "preached_date": "2026-01-11",
+    "display_date": "January 11, 2026",
+    "preached_timestamp": 1768104000000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2026/01/Open-Sharing-260104_1149.mp3": {
     "videoId": "c2qXM91f_mU",
@@ -256,7 +372,10 @@
     "date": "January 10, 2026",
     "uploadedAt": "2026-08-26 08:54:17",
     "short_date": "Jan 10, 2026",
-    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Jan 10, 2026) | VCF"
+    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Jan 10, 2026) | VCF",
+    "preached_date": "2026-01-10",
+    "display_date": "January 10, 2026",
+    "preached_timestamp": 1768017600000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2025/12/Jake-Seimens-251228_1206.mp3": {
     "videoId": "3rjfOwp4I7M",
@@ -265,16 +384,10 @@
     "date": "December 29, 2025",
     "uploadedAt": "2026-08-26 08:56:29",
     "short_date": "Dec 29, 2025",
-    "youtube_title": "Walking in Wisdom - Jake Siemens (Dec 29, 2025) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/12/Corny-Janzen-251221_1149.mp3": {
-    "videoId": "xu1YuuNM8QU",
-    "title": "The Truth of the Gospel",
-    "speaker": "Corny Janzen",
-    "date": "December 21, 2025",
-    "uploadedAt": "2026-08-26 08:58:38",
-    "short_date": "Dec 21, 2025",
-    "youtube_title": "The Truth of the Gospel - Corny Janzen (Dec 21, 2025) | Victory Christian Fellowship"
+    "youtube_title": "Walking in Wisdom - Jake Siemens (Dec 29, 2025) | Victory Christian Fellowship",
+    "preached_date": "2025-12-29",
+    "display_date": "December 29, 2025",
+    "preached_timestamp": 1766980800000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2025/11/Jake-Siemens-251116_1210.mp3": {
     "videoId": "lTyZSuTo9PQ",
@@ -283,16 +396,32 @@
     "date": "December 28, 2025",
     "uploadedAt": "2026-08-26 09:00:27",
     "short_date": "Dec 28, 2025",
-    "youtube_title": "How to Control Yourself Gods Way - Jake Siemens (Dec 28, 2025) | Victory Christian Fellowship"
+    "youtube_title": "How to Control Yourself Gods Way - Jake Siemens (Dec 28, 2025) | Victory Christian Fellowship",
+    "preached_date": "2025-12-28",
+    "display_date": "December 28, 2025",
+    "preached_timestamp": 1766894400000
   },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/11/John-Enns-251026_1044.mp3": {
-    "videoId": "osatPyX-2XA",
-    "title": "I Would Rather Be Bored",
-    "speaker": "Victory Christian Fellowship",
-    "date": "July 26, 2023",
-    "uploadedAt": "2026-08-26 09:02:44",
-    "short_date": "Jul 26, 2023",
-    "youtube_title": "I Would Rather Be Bored - Victory Christian Fellowship (Jul 26, 2023) | VCF"
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/12/Corny-Janzen-251221_1149.mp3": {
+    "videoId": "xu1YuuNM8QU",
+    "title": "The Truth of the Gospel",
+    "speaker": "Corny Janzen",
+    "date": "December 21, 2025",
+    "uploadedAt": "2026-08-26 08:58:38",
+    "short_date": "Dec 21, 2025",
+    "youtube_title": "The Truth of the Gospel - Corny Janzen (Dec 21, 2025) | Victory Christian Fellowship",
+    "preached_date": "2025-12-21",
+    "display_date": "December 21, 2025",
+    "preached_timestamp": 1766289600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/10/Jake-Siemens-251005_1048.mp3": {
+    "videoId": "MA6n79jiIYA",
+    "title": "What Jesus Did, and Three Reasons Why He Did It",
+    "speaker": "Jake Siemens",
+    "date": "November 16, 2025",
+    "uploadedAt": "2026-08-26 09:10:13",
+    "preached_date": "2025-11-16",
+    "display_date": "November 16, 2025",
+    "preached_timestamp": 1763265600000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2025/10/Open-Sharing-51019_1047.mp3": {
     "videoId": "xHI_jPa-HPU",
@@ -301,7 +430,10 @@
     "date": "October 27, 2025",
     "uploadedAt": "2026-08-26 09:05:36",
     "short_date": "Oct 27, 2025",
-    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Oct 27, 2025) | VCF"
+    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Oct 27, 2025) | VCF",
+    "preached_date": "2025-10-27",
+    "display_date": "October 27, 2025",
+    "preached_timestamp": 1761534000000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2025/10/Corny-Janzen-251012_1112.mp3": {
     "videoId": "V_sVpkDI1dI",
@@ -310,14 +442,10 @@
     "date": "October 12, 2025",
     "uploadedAt": "2026-08-26 09:07:54",
     "short_date": "Oct 12, 2025",
-    "youtube_title": "The Called. Galatians 1:6-24 - Corny Janzen (Oct 12, 2025) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/10/Jake-Siemens-251005_1048.mp3": {
-    "videoId": "MA6n79jiIYA",
-    "title": "What Jesus Did, and Three Reasons Why He Did It",
-    "speaker": "Jake Siemens",
-    "date": "November 16, 2025",
-    "uploadedAt": "2026-08-26 09:10:13"
+    "youtube_title": "The Called. Galatians 1:6-24 - Corny Janzen (Oct 12, 2025) | Victory Christian Fellowship",
+    "preached_date": "2025-10-12",
+    "display_date": "October 12, 2025",
+    "preached_timestamp": 1760238000000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2025/10/Open-Sharing-250928_1045.mp3": {
     "videoId": "FAbyZAc6oXs",
@@ -326,7 +454,10 @@
     "date": "October 05, 2025",
     "uploadedAt": "2026-08-26 09:12:46",
     "short_date": "Oct 05, 2025",
-    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Oct 05, 2025) | VCF"
+    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Oct 05, 2025) | VCF",
+    "preached_date": "2025-10-05",
+    "display_date": "October 05, 2025",
+    "preached_timestamp": 1759633200000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2025/09/Jake-Siemens-250914_1110.mp3": {
     "videoId": "k_J9v7Taetc",
@@ -335,140 +466,10 @@
     "date": "October 05, 2025",
     "uploadedAt": "2026-08-26 09:14:35",
     "short_date": "Oct 05, 2025",
-    "youtube_title": "Practical Biblical Finances - Jake Siemens (Oct 05, 2025) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/09/Corny-Janzen-250907_1114.mp3": {
-    "videoId": "3LdISkQTquw",
-    "title": "The Gospel. Galatians 1:1-5",
-    "speaker": "Corny Janzen",
-    "date": "September 07, 2025",
-    "uploadedAt": "2026-08-26 09:16:29",
-    "short_date": "Sep 07, 2025",
-    "youtube_title": "The Gospel. Galatians 1:1-5 - Corny Janzen (Sep 07, 2025) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/09/Jake-Driedger-250831_1104.mp3": {
-    "videoId": "vfQ71O99Kyk",
-    "title": "Casting Pearls Before Swine",
-    "speaker": "Jake Driedger",
-    "date": "August 31, 2025",
-    "uploadedAt": "2026-08-26 09:18:46",
-    "short_date": "Aug 31, 2025",
-    "youtube_title": "Casting Pearls Before Swine - Jake Driedger (Aug 31, 2025) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/08/Jake-Seimens-250817_1041.mp3": {
-    "videoId": "MINwWcyX8UM",
-    "title": "Gospel Living",
-    "speaker": "Jake Siemens",
-    "date": "August 17, 2025",
-    "uploadedAt": "2026-08-26 09:19:53"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/08/Open-Sharing-250810_1038.mp3": {
-    "videoId": "WWK10ROrE9w",
-    "title": "Open Sharing & Testimonies",
-    "speaker": "Victory Christian Fellowship",
-    "date": "August 12, 2025",
-    "uploadedAt": "2026-08-26 09:22:59",
-    "short_date": "Aug 12, 2025",
-    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Aug 12, 2025) | VCF"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/08/Open-Sharing-250803_1044-1.mp3": {
-    "videoId": "9h2bOAnae7Q",
-    "title": "Open Sharing & Testimonies",
-    "speaker": "Victory Christian Fellowship",
-    "date": "August 07, 2025",
-    "uploadedAt": "2026-08-26 09:25:49",
-    "short_date": "Aug 07, 2025",
-    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Aug 07, 2025) | VCF"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/08/Open-Sharing-250803_1044.mp3": {
-    "videoId": "aZBOamp38SY",
-    "title": "Open Sharing & Testimonies",
-    "speaker": "Victory Christian Fellowship",
-    "date": "August 07, 2025",
-    "uploadedAt": "2026-08-26 09:28:42",
-    "short_date": "Aug 07, 2025",
-    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Aug 07, 2025) | VCF"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/08/Open-Sharing-250727_1046.mp3": {
-    "videoId": "OkjYWbXWapg",
-    "title": "Open Sharing & Testimonies",
-    "speaker": "Victory Christian Fellowship",
-    "date": "August 02, 2025",
-    "uploadedAt": "2026-08-26 09:31:05",
-    "short_date": "Aug 02, 2025",
-    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Aug 02, 2025) | VCF"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/07/Jake-Driedger-250720_1035.mp3": {
-    "videoId": "QExlBqWifgM",
-    "title": "We Are Waiting For His Coming",
-    "speaker": "Jake Driedger",
-    "date": "July 20, 2025",
-    "uploadedAt": "2026-08-26 09:33:20",
-    "short_date": "Jul 20, 2025",
-    "youtube_title": "We Are Waiting For His Coming - Jake Driedger (Jul 20, 2025) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/07/Jerry-Mawhorr-250713_1040-1.mp3": {
-    "videoId": "zgqb3Rj91vw",
-    "title": "A Fresh Look at the New Covenant (Part 3)",
-    "speaker": "Jerry Mawhorr",
-    "date": "July 13, 2025",
-    "uploadedAt": "2026-08-26 09:37:18",
-    "short_date": "Jul 13, 2025",
-    "youtube_title": "A Fresh Look at the New Covenant (Part 3) - Jerry Mawhorr (Jul 13, 2025) | VCF"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/07/Jerry-Mawhorr-250713_1040.mp3": {
-    "videoId": "vRWrdQWZjCg",
-    "title": "A Fresh Look at the New Covenant (Part 3)",
-    "speaker": "Jerry Mawhorr",
-    "date": "July 13, 2025",
-    "uploadedAt": "2026-08-26 09:39:29",
-    "short_date": "Jul 13, 2025",
-    "youtube_title": "A Fresh Look at the New Covenant (Part 3) - Jerry Mawhorr (Jul 13, 2025) | VCF"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/07/Jerry-Mawhorr-250712_1932.mp3": {
-    "videoId": "D9APZxOy_hQ",
-    "title": "A Fresh Look at the New Covenant (Part 3)",
-    "speaker": "Jerry Mawhorr",
-    "date": "July 13, 2025",
-    "uploadedAt": "2026-08-26 09:42:03",
-    "short_date": "Jul 13, 2025",
-    "youtube_title": "A Fresh Look at the New Covenant (Part 3) - Jerry Mawhorr (Jul 13, 2025) | VCF"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/07/Jerry-Mawhorr-250711_1936.mp3": {
-    "videoId": "1IaRRBEeoyM",
-    "title": "A Fresh Look at the New Covenant (Part 3)",
-    "speaker": "Jerry Mawhorr",
-    "date": "July 13, 2025",
-    "uploadedAt": "2026-08-26 09:44:45",
-    "short_date": "Jul 13, 2025",
-    "youtube_title": "A Fresh Look at the New Covenant (Part 3) - Jerry Mawhorr (Jul 13, 2025) | VCF"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/07/Corny-Janzen-250706_1044.mp3": {
-    "videoId": "T_gnAbjWvDc",
-    "title": "1 Peter 5",
-    "speaker": "Corny Janzen",
-    "date": "October 26, 2023",
-    "uploadedAt": "2026-08-26 09:47:00",
-    "short_date": "Oct 26, 2023",
-    "youtube_title": "1 Peter 5 - Corny Janzen (Oct 26, 2023) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/07/John-Banman-250629_1102.mp3": {
-    "videoId": "vHXobq5Vo0E",
-    "title": "Does Jesus Have Your Heart?",
-    "speaker": "John Banman",
-    "date": "June 29, 2025",
-    "uploadedAt": "2026-08-26 09:49:34",
-    "short_date": "Jun 29, 2025",
-    "youtube_title": "Does Jesus Have Your Heart? - John Banman (Jun 29, 2025) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/06/Henry-Wall-250622_1052.mp3": {
-    "videoId": "utD5dCmrqeg",
-    "title": "Do What You Can",
-    "speaker": "Henry Wall",
-    "date": "July 23, 2023",
-    "uploadedAt": "2026-08-26 09:51:03",
-    "short_date": "Jul 23, 2023",
-    "youtube_title": "Do What You Can - Henry Wall (Jul 23, 2023) | Victory Christian Fellowship"
+    "youtube_title": "Practical Biblical Finances - Jake Siemens (Oct 05, 2025) | Victory Christian Fellowship",
+    "preached_date": "2025-10-05",
+    "display_date": "October 05, 2025",
+    "preached_timestamp": 1759633200000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2025/06/Jake-Siemens-250615_1045.mp3": {
     "videoId": "7D-iqhwewxc",
@@ -477,7 +478,174 @@
     "date": "September 14, 2025",
     "uploadedAt": "2026-08-26 09:53:24",
     "short_date": "Sep 14, 2025",
-    "youtube_title": "The Biblical Mindset and Heartset of Finances - Jake Siemens (Sep 14, 2025) | VCF"
+    "youtube_title": "The Biblical Mindset and Heartset of Finances - Jake Siemens (Sep 14, 2025) | VCF",
+    "preached_date": "2025-09-14",
+    "display_date": "September 14, 2025",
+    "preached_timestamp": 1757818800000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/09/Corny-Janzen-250907_1114.mp3": {
+    "videoId": "3LdISkQTquw",
+    "title": "The Gospel. Galatians 1:1-5",
+    "speaker": "Corny Janzen",
+    "date": "September 07, 2025",
+    "uploadedAt": "2026-08-26 09:16:29",
+    "short_date": "Sep 07, 2025",
+    "youtube_title": "The Gospel. Galatians 1:1-5 - Corny Janzen (Sep 07, 2025) | Victory Christian Fellowship",
+    "preached_date": "2025-09-07",
+    "display_date": "September 07, 2025",
+    "preached_timestamp": 1757214000000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/09/Jake-Driedger-250831_1104.mp3": {
+    "videoId": "vfQ71O99Kyk",
+    "title": "Casting Pearls Before Swine",
+    "speaker": "Jake Driedger",
+    "date": "August 31, 2025",
+    "uploadedAt": "2026-08-26 09:18:46",
+    "short_date": "Aug 31, 2025",
+    "youtube_title": "Casting Pearls Before Swine - Jake Driedger (Aug 31, 2025) | Victory Christian Fellowship",
+    "preached_date": "2025-08-31",
+    "display_date": "August 31, 2025",
+    "preached_timestamp": 1756609200000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/08/Jake-Seimens-250817_1041.mp3": {
+    "videoId": "MINwWcyX8UM",
+    "title": "Gospel Living",
+    "speaker": "Jake Siemens",
+    "date": "August 17, 2025",
+    "uploadedAt": "2026-08-26 09:19:53",
+    "preached_date": "2025-08-17",
+    "display_date": "August 17, 2025",
+    "preached_timestamp": 1755399600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/08/Open-Sharing-250810_1038.mp3": {
+    "videoId": "WWK10ROrE9w",
+    "title": "Open Sharing & Testimonies",
+    "speaker": "Victory Christian Fellowship",
+    "date": "August 12, 2025",
+    "uploadedAt": "2026-08-26 09:22:59",
+    "short_date": "Aug 12, 2025",
+    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Aug 12, 2025) | VCF",
+    "preached_date": "2025-08-12",
+    "display_date": "August 12, 2025",
+    "preached_timestamp": 1754967600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/08/Open-Sharing-250803_1044-1.mp3": {
+    "videoId": "9h2bOAnae7Q",
+    "title": "Open Sharing & Testimonies",
+    "speaker": "Victory Christian Fellowship",
+    "date": "August 07, 2025",
+    "uploadedAt": "2026-08-26 09:25:49",
+    "short_date": "Aug 07, 2025",
+    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Aug 07, 2025) | VCF",
+    "preached_date": "2025-08-07",
+    "display_date": "August 07, 2025",
+    "preached_timestamp": 1754535600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/08/Open-Sharing-250803_1044.mp3": {
+    "videoId": "aZBOamp38SY",
+    "title": "Open Sharing & Testimonies",
+    "speaker": "Victory Christian Fellowship",
+    "date": "August 07, 2025",
+    "uploadedAt": "2026-08-26 09:28:42",
+    "short_date": "Aug 07, 2025",
+    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Aug 07, 2025) | VCF",
+    "preached_date": "2025-08-07",
+    "display_date": "August 07, 2025",
+    "preached_timestamp": 1754535600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/08/Open-Sharing-250727_1046.mp3": {
+    "videoId": "OkjYWbXWapg",
+    "title": "Open Sharing & Testimonies",
+    "speaker": "Victory Christian Fellowship",
+    "date": "August 02, 2025",
+    "uploadedAt": "2026-08-26 09:31:05",
+    "short_date": "Aug 02, 2025",
+    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Aug 02, 2025) | VCF",
+    "preached_date": "2025-08-02",
+    "display_date": "August 02, 2025",
+    "preached_timestamp": 1754103600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/07/Jake-Driedger-250720_1035.mp3": {
+    "videoId": "QExlBqWifgM",
+    "title": "We Are Waiting For His Coming",
+    "speaker": "Jake Driedger",
+    "date": "July 20, 2025",
+    "uploadedAt": "2026-08-26 09:33:20",
+    "short_date": "Jul 20, 2025",
+    "youtube_title": "We Are Waiting For His Coming - Jake Driedger (Jul 20, 2025) | Victory Christian Fellowship",
+    "preached_date": "2025-07-20",
+    "display_date": "July 20, 2025",
+    "preached_timestamp": 1752980400000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/07/Jerry-Mawhorr-250713_1040-1.mp3": {
+    "videoId": "zgqb3Rj91vw",
+    "title": "A Fresh Look at the New Covenant (Part 3)",
+    "speaker": "Jerry Mawhorr",
+    "date": "July 13, 2025",
+    "uploadedAt": "2026-08-26 09:37:18",
+    "short_date": "Jul 13, 2025",
+    "youtube_title": "A Fresh Look at the New Covenant (Part 3) - Jerry Mawhorr (Jul 13, 2025) | VCF",
+    "preached_date": "2025-07-13",
+    "display_date": "July 13, 2025",
+    "preached_timestamp": 1752375600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/07/Jerry-Mawhorr-250713_1040.mp3": {
+    "videoId": "vRWrdQWZjCg",
+    "title": "A Fresh Look at the New Covenant (Part 3)",
+    "speaker": "Jerry Mawhorr",
+    "date": "July 13, 2025",
+    "uploadedAt": "2026-08-26 09:39:29",
+    "short_date": "Jul 13, 2025",
+    "youtube_title": "A Fresh Look at the New Covenant (Part 3) - Jerry Mawhorr (Jul 13, 2025) | VCF",
+    "preached_date": "2025-07-13",
+    "display_date": "July 13, 2025",
+    "preached_timestamp": 1752375600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/07/Jerry-Mawhorr-250712_1932.mp3": {
+    "videoId": "D9APZxOy_hQ",
+    "title": "A Fresh Look at the New Covenant (Part 3)",
+    "speaker": "Jerry Mawhorr",
+    "date": "July 13, 2025",
+    "uploadedAt": "2026-08-26 09:42:03",
+    "short_date": "Jul 13, 2025",
+    "youtube_title": "A Fresh Look at the New Covenant (Part 3) - Jerry Mawhorr (Jul 13, 2025) | VCF",
+    "preached_date": "2025-07-13",
+    "display_date": "July 13, 2025",
+    "preached_timestamp": 1752375600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/07/Jerry-Mawhorr-250711_1936.mp3": {
+    "videoId": "1IaRRBEeoyM",
+    "title": "A Fresh Look at the New Covenant (Part 3)",
+    "speaker": "Jerry Mawhorr",
+    "date": "July 13, 2025",
+    "uploadedAt": "2026-08-26 09:44:45",
+    "short_date": "Jul 13, 2025",
+    "youtube_title": "A Fresh Look at the New Covenant (Part 3) - Jerry Mawhorr (Jul 13, 2025) | VCF",
+    "preached_date": "2025-07-13",
+    "display_date": "July 13, 2025",
+    "preached_timestamp": 1752375600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/07/Jerry-Mawhorr-250713_1840.mp3": {
+    "videoId": "QkfG2Dz9N-8",
+    "title": "A Fresh Look at the New Covenant (Part 3)",
+    "speaker": "Jerry Mawhorr",
+    "date": "July 13, 2025",
+    "uploadedAt": "2026-08-26 13:48:50",
+    "preached_date": "2025-07-13",
+    "display_date": "July 13, 2025",
+    "preached_timestamp": 1752375600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/07/John-Banman-250629_1102.mp3": {
+    "videoId": "vHXobq5Vo0E",
+    "title": "Does Jesus Have Your Heart?",
+    "speaker": "John Banman",
+    "date": "June 29, 2025",
+    "uploadedAt": "2026-08-26 09:49:34",
+    "short_date": "Jun 29, 2025",
+    "youtube_title": "Does Jesus Have Your Heart? - John Banman (Jun 29, 2025) | Victory Christian Fellowship",
+    "preached_date": "2025-06-29",
+    "display_date": "June 29, 2025",
+    "preached_timestamp": 1751166000000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2025/06/Jeremiah-Vermont-250608_1045.mp3": {
     "videoId": "vNOAx1JNpow",
@@ -486,34 +654,10 @@
     "date": "June 09, 2025",
     "uploadedAt": "2026-08-26 09:55:04",
     "short_date": "Jun 09, 2025",
-    "youtube_title": "Walking in Faith - Victory Christian Fellowship (Jun 09, 2025) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/05/Jake-Siemens-250525_1101.mp3": {
-    "videoId": "ST4d3qZuOfg",
-    "title": "Walk Talk and Serve",
-    "speaker": "Jake Siemens",
-    "date": "May 04, 2025",
-    "uploadedAt": "2026-08-26 09:56:45",
-    "short_date": "May 04, 2025",
-    "youtube_title": "Walk Talk and Serve - Jake Siemens (May 04, 2025) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/05/David-Janzen-250518_1046.mp3": {
-    "videoId": "gK1gxwth6v4",
-    "title": "Two Ways",
-    "speaker": "Victory Christian Fellowship",
-    "date": "July 23, 2023",
-    "uploadedAt": "2026-08-26 10:00:27",
-    "short_date": "Jul 23, 2023",
-    "youtube_title": "Two Ways - Victory Christian Fellowship (Jul 23, 2023) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/05/Jake-Siemens-250504_1052.mp3": {
-    "videoId": "vKo_6jtHeOs",
-    "title": "The Christians Relationship to God and to His Work",
-    "speaker": "Jake Siemens",
-    "date": "April 13, 2025",
-    "uploadedAt": "2026-08-26 10:06:43",
-    "short_date": "Apr 13, 2025",
-    "youtube_title": "The Christians Relationship to God and to His Work - Jake Siemens (Apr 13, 2025) | VCF"
+    "youtube_title": "Walking in Faith - Victory Christian Fellowship (Jun 09, 2025) | Victory Christian Fellowship",
+    "preached_date": "2025-06-09",
+    "display_date": "June 09, 2025",
+    "preached_timestamp": 1749438000000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2025/05/Henry-Wall-250427_1058.mp3": {
     "videoId": "4Z4RqA8DoGA",
@@ -522,7 +666,34 @@
     "date": "June 08, 2025",
     "uploadedAt": "2026-08-26 10:08:00",
     "short_date": "Jun 08, 2025",
-    "youtube_title": "True Discipleship - Henry Wall (Jun 08, 2025) | Victory Christian Fellowship"
+    "youtube_title": "True Discipleship - Henry Wall (Jun 08, 2025) | Victory Christian Fellowship",
+    "preached_date": "2025-06-08",
+    "display_date": "June 08, 2025",
+    "preached_timestamp": 1749351600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/05/Open-Sharing-250511_1042.mp3": {
+    "videoId": "ipKaPeVJodM",
+    "title": "Open Sharing & Testimonies",
+    "speaker": "Victory Christian Fellowship",
+    "date": "May 19, 2025",
+    "uploadedAt": "2026-08-26 14:51:51",
+    "short_date": "May 19, 2025",
+    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (May 19, 2025) | VCF",
+    "preached_date": "2025-05-19",
+    "display_date": "May 19, 2025",
+    "preached_timestamp": 1747623600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/05/Jake-Siemens-250525_1101.mp3": {
+    "videoId": "ST4d3qZuOfg",
+    "title": "Walk Talk and Serve",
+    "speaker": "Jake Siemens",
+    "date": "May 04, 2025",
+    "uploadedAt": "2026-08-26 09:56:45",
+    "short_date": "May 04, 2025",
+    "youtube_title": "Walk Talk and Serve - Jake Siemens (May 04, 2025) | Victory Christian Fellowship",
+    "preached_date": "2025-05-04",
+    "display_date": "May 04, 2025",
+    "preached_timestamp": 1746327600000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2025/04/Jake-Seimens-250423_1928.mp3": {
     "videoId": "bORDRslpz-g",
@@ -531,7 +702,10 @@
     "date": "April 30, 2025",
     "uploadedAt": "2026-08-26 10:10:37",
     "short_date": "Apr 30, 2025",
-    "youtube_title": "The Mind of Christ - Jake Siemens (Apr 30, 2025) | Victory Christian Fellowship"
+    "youtube_title": "The Mind of Christ - Jake Siemens (Apr 30, 2025) | Victory Christian Fellowship",
+    "preached_date": "2025-04-30",
+    "display_date": "April 30, 2025",
+    "preached_timestamp": 1745982000000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2025/04/Jake-Dreidger.mp3": {
     "videoId": "8_kCkiL4iyU",
@@ -540,7 +714,34 @@
     "date": "April 22, 2025",
     "uploadedAt": "2026-08-26 10:12:27",
     "short_date": "Apr 22, 2025",
-    "youtube_title": "Salvation Through Christ - Jake Driedger (Apr 22, 2025) | Victory Christian Fellowship"
+    "youtube_title": "Salvation Through Christ - Jake Driedger (Apr 22, 2025) | Victory Christian Fellowship",
+    "preached_date": "2025-04-22",
+    "display_date": "April 22, 2025",
+    "preached_timestamp": 1745290800000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/02/Jake-Driedger-250202_1155.mp3": {
+    "videoId": "WgMKANQodQM",
+    "title": "Responding to God",
+    "speaker": "Jake Driedger",
+    "date": "April 20, 2025",
+    "uploadedAt": "2026-08-26 10:38:11",
+    "short_date": "Apr 20, 2025",
+    "youtube_title": "Responding to God - Jake Driedger (Apr 20, 2025) | Victory Christian Fellowship",
+    "preached_date": "2025-04-20",
+    "display_date": "April 20, 2025",
+    "preached_timestamp": 1745118000000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/05/Jake-Siemens-250504_1052.mp3": {
+    "videoId": "vKo_6jtHeOs",
+    "title": "The Christians Relationship to God and to His Work",
+    "speaker": "Jake Siemens",
+    "date": "April 13, 2025",
+    "uploadedAt": "2026-08-26 10:06:43",
+    "short_date": "Apr 13, 2025",
+    "youtube_title": "The Christians Relationship to God and to His Work - Jake Siemens (Apr 13, 2025) | VCF",
+    "preached_date": "2025-04-13",
+    "display_date": "April 13, 2025",
+    "preached_timestamp": 1744513200000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2025/04/Jake-Siemens-250413_1059.mp3": {
     "videoId": "j7TJ3owAIfs",
@@ -549,25 +750,10 @@
     "date": "March 23, 2025",
     "uploadedAt": "2026-08-26 10:14:42",
     "short_date": "Mar 23, 2025",
-    "youtube_title": "Four Commands for the Christian Home - Jake Siemens (Mar 23, 2025) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/04/Corny-Janzen-250330_1047.mp3": {
-    "videoId": "cuUgJ2xgcQ8",
-    "title": "1 Peter 3 Exposition",
-    "speaker": "Corny Janzen",
-    "date": "November 27, 2023",
-    "uploadedAt": "2026-08-26 10:18:05",
-    "short_date": "Nov 27, 2023",
-    "youtube_title": "1 Peter 3 Exposition - Corny Janzen (Nov 27, 2023) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/03/Jake-Siemens-250323_1101.mp3": {
-    "videoId": "Xuzht5E8uFQ",
-    "title": "Put to Death, Put off, Put on, and Let God",
-    "speaker": "Jake Siemens",
-    "date": "March 02, 2025",
-    "uploadedAt": "2026-08-26 10:20:36",
-    "short_date": "Mar 02, 2025",
-    "youtube_title": "Put to Death, Put off, Put on, and Let God - Jake Siemens (Mar 02, 2025) | VCF"
+    "youtube_title": "Four Commands for the Christian Home - Jake Siemens (Mar 23, 2025) | Victory Christian Fellowship",
+    "preached_date": "2025-03-23",
+    "display_date": "March 23, 2025",
+    "preached_timestamp": 1742698800000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2025/03/Corny-Janzen-250309_1039.mp3": {
     "videoId": "9kSMkv1_WMI",
@@ -577,16 +763,22 @@
     "uploadedAt": "2026-08-26 10:23:52",
     "short_date": "Mar 09, 2025",
     "youtube_title": "Growing in Grace and Fruitfulness (2 Peter 1:1-11) - Corny Janzen (Mar 09, 2025) | VCF",
-    "passage": "2 Peter 1:1-11"
+    "passage": "2 Peter 1:1-11",
+    "preached_date": "2025-03-09",
+    "display_date": "March 09, 2025",
+    "preached_timestamp": 1741492800000
   },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/03/Jake-Siemens-250302_1151.mp3": {
-    "videoId": "GJ9FRrUI-sI",
-    "title": "Heaven",
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/03/Jake-Siemens-250323_1101.mp3": {
+    "videoId": "Xuzht5E8uFQ",
+    "title": "Put to Death, Put off, Put on, and Let God",
     "speaker": "Jake Siemens",
-    "date": "December 30, 2023",
-    "uploadedAt": "2026-08-26 10:26:24",
-    "short_date": "Dec 30, 2023",
-    "youtube_title": "Heaven - Jake Siemens (Dec 30, 2023) | Victory Christian Fellowship"
+    "date": "March 02, 2025",
+    "uploadedAt": "2026-08-26 10:20:36",
+    "short_date": "Mar 02, 2025",
+    "youtube_title": "Put to Death, Put off, Put on, and Let God - Jake Siemens (Mar 02, 2025) | VCF",
+    "preached_date": "2025-03-02",
+    "display_date": "March 02, 2025",
+    "preached_timestamp": 1740888000000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2025/02/Mark-Villenueve-250223_1141.mp3": {
     "videoId": "ccf3ur2AUDw",
@@ -595,7 +787,10 @@
     "date": "February 25, 2025",
     "uploadedAt": "2026-08-26 10:29:37",
     "short_date": "Feb 25, 2025",
-    "youtube_title": "Faith and Works - Mark Villeneuve (Feb 25, 2025) | Victory Christian Fellowship"
+    "youtube_title": "Faith and Works - Mark Villeneuve (Feb 25, 2025) | Victory Christian Fellowship",
+    "preached_date": "2025-02-25",
+    "display_date": "February 25, 2025",
+    "preached_timestamp": 1740456000000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2025/02/Corny-Janzen-250216_1141.mp3": {
     "videoId": "T7ylR1CVBFI",
@@ -605,43 +800,10 @@
     "uploadedAt": "2026-08-26 10:33:34",
     "short_date": "Feb 18, 2025",
     "youtube_title": "Standing Firm in True Grace (1 Peter 5:8-14) - Corny Janzen (Feb 16, 2025) | VCF",
-    "passage": "1 Peter 5:8-14"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/02/Jake-Siemens-250209_1149.mp3": {
-    "videoId": "vG1X51t-Z80",
-    "title": "Five Truths That Will Keep You From Getting Spoiled",
-    "speaker": "Jake Siemens",
-    "date": "December 29, 2024",
-    "uploadedAt": "2026-08-26 10:35:50",
-    "short_date": "Dec 29, 2024",
-    "youtube_title": "Five Truths That Will Keep You From Getting Spoiled - Jake Siemens (Dec 29, 2024) | VCF"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/02/Jake-Driedger-250202_1155.mp3": {
-    "videoId": "WgMKANQodQM",
-    "title": "Responding to God",
-    "speaker": "Jake Driedger",
-    "date": "April 20, 2025",
-    "uploadedAt": "2026-08-26 10:38:11",
-    "short_date": "Apr 20, 2025",
-    "youtube_title": "Responding to God - Jake Driedger (Apr 20, 2025) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/01/John-Banman-250126_1205.mp3": {
-    "videoId": "EigtbTRp3B4",
-    "title": "The Gospel",
-    "speaker": "John Banman",
-    "date": "January 26, 2025",
-    "uploadedAt": "2026-08-26 10:40:31",
-    "short_date": "Jan 26, 2025",
-    "youtube_title": "The Gospel - John Banman (Jan 26, 2025) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/01/Jake-Siemens-250119_1222.mp3": {
-    "videoId": "mF2He0YvU0s",
-    "title": "Six Keys to a Steadfast Unbeguiled Faith",
-    "speaker": "Jake Siemens",
-    "date": "December 08, 2024",
-    "uploadedAt": "2026-08-26 10:41:49",
-    "short_date": "Dec 08, 2024",
-    "youtube_title": "Six Keys to a Steadfast Unbeguiled Faith - Jake Siemens (Dec 08, 2024) | VCF"
+    "passage": "1 Peter 5:8-14",
+    "preached_date": "2025-02-18",
+    "display_date": "February 18, 2025",
+    "preached_timestamp": 1739851200000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2025/01/Jake-Driedger-250112_1204.mp3": {
     "videoId": "PDTSJXdlbM4",
@@ -650,7 +812,22 @@
     "date": "February 02, 2025",
     "uploadedAt": "2026-08-26 10:43:28",
     "short_date": "Feb 02, 2025",
-    "youtube_title": "The Holy Spirit in Salvation - Jake Driedger (Feb 02, 2025) | Victory Christian Fellowship"
+    "youtube_title": "The Holy Spirit in Salvation - Jake Driedger (Feb 02, 2025) | Victory Christian Fellowship",
+    "preached_date": "2025-02-02",
+    "display_date": "February 02, 2025",
+    "preached_timestamp": 1738468800000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/01/John-Banman-250126_1205.mp3": {
+    "videoId": "EigtbTRp3B4",
+    "title": "The Gospel",
+    "speaker": "John Banman",
+    "date": "January 26, 2025",
+    "uploadedAt": "2026-08-26 10:40:31",
+    "short_date": "Jan 26, 2025",
+    "youtube_title": "The Gospel - John Banman (Jan 26, 2025) | Victory Christian Fellowship",
+    "preached_date": "2025-01-26",
+    "display_date": "January 26, 2025",
+    "preached_timestamp": 1737864000000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2025/01/Corny-Janzen-250105_1139.mp3": {
     "videoId": "82A1HGXwT9w",
@@ -660,16 +837,22 @@
     "uploadedAt": "2026-08-26 10:45:24",
     "short_date": "Jan 06, 2025",
     "youtube_title": "Shepherd the Flock of God (1 Peter 5:1-7) - Corny Janzen (Jan 05, 2025) | VCF",
-    "passage": "1 Peter 5:1-7"
+    "passage": "1 Peter 5:1-7",
+    "preached_date": "2025-01-06",
+    "display_date": "January 06, 2025",
+    "preached_timestamp": 1736136000000
   },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/01/Jake-Siemens-241229_1208.mp3": {
-    "videoId": "NwI8rPQV2T4",
-    "title": "Reconciled Through Christ",
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/02/Jake-Siemens-250209_1149.mp3": {
+    "videoId": "vG1X51t-Z80",
+    "title": "Five Truths That Will Keep You From Getting Spoiled",
     "speaker": "Jake Siemens",
-    "date": "October 06, 2024",
-    "uploadedAt": "2026-08-26 10:46:57",
-    "short_date": "Oct 06, 2024",
-    "youtube_title": "Reconciled Through Christ - Jake Siemens (Oct 06, 2024) | Victory Christian Fellowship"
+    "date": "December 29, 2024",
+    "uploadedAt": "2026-08-26 10:35:50",
+    "short_date": "Dec 29, 2024",
+    "youtube_title": "Five Truths That Will Keep You From Getting Spoiled - Jake Siemens (Dec 29, 2024) | VCF",
+    "preached_date": "2024-12-29",
+    "display_date": "December 29, 2024",
+    "preached_timestamp": 1735444800000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2024/12/Corny-Janzen-241222_1141.mp3": {
     "videoId": "phVkfSqj5SE",
@@ -679,7 +862,10 @@
     "uploadedAt": "2026-08-26 10:50:40",
     "short_date": "Dec 25, 2024",
     "youtube_title": "The Glory of Suffering for Christ (1 Peter 4:12-19) - Corny Janzen (Dec 22, 2024) | VCF",
-    "passage": "1 Peter 4:12-19"
+    "passage": "1 Peter 4:12-19",
+    "preached_date": "2024-12-25",
+    "display_date": "December 25, 2024",
+    "preached_timestamp": 1735099200000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2024/12/Open-Sharing-241215_1143.mp3": {
     "videoId": "H7CsmJBz-8M",
@@ -688,16 +874,22 @@
     "date": "December 22, 2024",
     "uploadedAt": "2026-08-26 10:52:38",
     "short_date": "Dec 22, 2024",
-    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Dec 22, 2024) | VCF"
+    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Dec 22, 2024) | VCF",
+    "preached_date": "2024-12-22",
+    "display_date": "December 22, 2024",
+    "preached_timestamp": 1734840000000
   },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/12/Jake-Siemens-241208_1202.mp3": {
-    "videoId": "jWNbcbQE_BM",
-    "title": "The Preeminence of Christ",
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/01/Jake-Siemens-250119_1222.mp3": {
+    "videoId": "mF2He0YvU0s",
+    "title": "Six Keys to a Steadfast Unbeguiled Faith",
     "speaker": "Jake Siemens",
-    "date": "September 15, 2024",
-    "uploadedAt": "2026-08-26 10:54:14",
-    "short_date": "Sep 15, 2024",
-    "youtube_title": "The Preeminence of Christ - Jake Siemens (Sep 15, 2024) | Victory Christian Fellowship"
+    "date": "December 08, 2024",
+    "uploadedAt": "2026-08-26 10:41:49",
+    "short_date": "Dec 08, 2024",
+    "youtube_title": "Six Keys to a Steadfast Unbeguiled Faith - Jake Siemens (Dec 08, 2024) | VCF",
+    "preached_date": "2024-12-08",
+    "display_date": "December 08, 2024",
+    "preached_timestamp": 1733630400000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2024/12/Corny-Janzen-241201_1131.mp3": {
     "videoId": "fDimT-VQXHg",
@@ -706,16 +898,10 @@
     "date": "2024-12-08",
     "uploadedAt": "2026-08-26 10:57:04",
     "youtube_title": "Living for the Will of God (1 Peter 4:1-11) - Corny Janzen (Dec 01, 2024) | VCF",
-    "passage": "1 Peter 4:1-11"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/11/John-Banman-241124_1143.mp3": {
-    "videoId": "7se17hIzCJg",
-    "title": "What the Devil Can't Take",
-    "speaker": "John Banman",
-    "date": "November 24, 2024",
-    "uploadedAt": "2026-08-26 10:59:16",
-    "short_date": "Nov 24, 2024",
-    "youtube_title": "What the Devil Can't Take - John Banman (Nov 24, 2024) | Victory Christian Fellowship"
+    "passage": "1 Peter 4:1-11",
+    "preached_date": "2024-12-08",
+    "display_date": "December 08, 2024",
+    "preached_timestamp": 1733630400000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2024/11/Open-Mic-241117_1142.mp3": {
     "videoId": "_C9hZt7AEaU",
@@ -724,7 +910,44 @@
     "date": "November 26, 2024",
     "uploadedAt": "2026-08-26 11:01:37",
     "short_date": "Nov 26, 2024",
-    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Nov 26, 2024) | VCF"
+    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Nov 26, 2024) | VCF",
+    "preached_date": "2024-11-26",
+    "display_date": "November 26, 2024",
+    "preached_timestamp": 1732593600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/11/John-Banman-241124_1143.mp3": {
+    "videoId": "7se17hIzCJg",
+    "title": "What the Devil Can't Take",
+    "speaker": "John Banman",
+    "date": "November 24, 2024",
+    "uploadedAt": "2026-08-26 10:59:16",
+    "short_date": "Nov 24, 2024",
+    "youtube_title": "What the Devil Can't Take - John Banman (Nov 24, 2024) | Victory Christian Fellowship",
+    "preached_date": "2024-11-24",
+    "display_date": "November 24, 2024",
+    "preached_timestamp": 1732420800000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/11/Open-Sharing-241027_1050.mp3": {
+    "videoId": "iU6m9jsd3dU",
+    "title": "Open Sharing & Testimonies",
+    "speaker": "Open Sharing",
+    "date": "2024-11-07",
+    "uploadedAt": "2026-08-27 06:44:44",
+    "youtube_title": "Open Sharing & Testimonies - Open Sharing (2024-11-07) | Victory Christian Fellowship",
+    "preached_date": "2024-11-07",
+    "display_date": "November 07, 2024",
+    "preached_timestamp": 1730952000000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/10/John-Enns-241020_1045.mp3": {
+    "videoId": "dTyytYARubQ",
+    "title": "Sunday Service - 2024-10-23",
+    "speaker": "Victory Christian Fellowship",
+    "date": "2024-10-23",
+    "uploadedAt": "2026-08-27 08:06:37",
+    "youtube_title": "Sunday Service - 2024-10-23 - Victory Christian Fellowship (2024-10-23) | VCF",
+    "preached_date": "2024-10-23",
+    "display_date": "October 23, 2024",
+    "preached_timestamp": 1729652400000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2024/10/Jake-Seimens-241006_1102.mp3": {
     "videoId": "nSGFxfXeDT4",
@@ -733,7 +956,45 @@
     "date": "October 09, 2024",
     "uploadedAt": "2026-08-26 11:06:42",
     "short_date": "Oct 09, 2024",
-    "youtube_title": "Godly Living - Jake Siemens (Oct 09, 2024) | Victory Christian Fellowship"
+    "youtube_title": "Godly Living - Jake Siemens (Oct 09, 2024) | Victory Christian Fellowship",
+    "preached_date": "2024-10-09",
+    "display_date": "October 09, 2024",
+    "preached_timestamp": 1728442800000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/01/Jake-Siemens-241229_1208.mp3": {
+    "videoId": "NwI8rPQV2T4",
+    "title": "Reconciled Through Christ",
+    "speaker": "Jake Siemens",
+    "date": "October 06, 2024",
+    "uploadedAt": "2026-08-26 10:46:57",
+    "short_date": "Oct 06, 2024",
+    "youtube_title": "Reconciled Through Christ - Jake Siemens (Oct 06, 2024) | Victory Christian Fellowship",
+    "preached_date": "2024-10-06",
+    "display_date": "October 06, 2024",
+    "preached_timestamp": 1728183600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/09/Jske-Drieger-240922_1047.mp3": {
+    "videoId": "chNFplSUcf8",
+    "title": "Jske Drieger",
+    "speaker": "Victory Christian Fellowship",
+    "date": "2024-09-23",
+    "uploadedAt": "2026-08-27 08:07:32",
+    "youtube_title": "Jske Drieger - Victory Christian Fellowship (2024-09-23) | Victory Christian Fellowship",
+    "preached_date": "2024-09-23",
+    "display_date": "September 23, 2024",
+    "preached_timestamp": 1727060400000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/12/Jake-Siemens-241208_1202.mp3": {
+    "videoId": "jWNbcbQE_BM",
+    "title": "The Preeminence of Christ",
+    "speaker": "Jake Siemens",
+    "date": "September 15, 2024",
+    "uploadedAt": "2026-08-26 10:54:14",
+    "short_date": "Sep 15, 2024",
+    "youtube_title": "The Preeminence of Christ - Jake Siemens (Sep 15, 2024) | Victory Christian Fellowship",
+    "preached_date": "2024-09-15",
+    "display_date": "September 15, 2024",
+    "preached_timestamp": 1726369200000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2024/09/Corny-Janzen240908_1039.mp3": {
     "videoId": "ZxgZb_Phm_Y",
@@ -743,7 +1004,10 @@
     "uploadedAt": "2026-08-26 11:10:49",
     "short_date": "Sep 14, 2024",
     "youtube_title": "Submission for the Lord's Sake (1 Peter 2:11-25) - Corny Janzen (Sep 08, 2024) | VCF",
-    "passage": "1 Peter 2:11-25"
+    "passage": "1 Peter 2:11-25",
+    "preached_date": "2024-09-14",
+    "display_date": "September 14, 2024",
+    "preached_timestamp": 1726282800000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2024/09/Open-Mic-240901_1036.mp3": {
     "videoId": "9a2U8Ef98i8",
@@ -752,7 +1016,10 @@
     "date": "September 02, 2024",
     "uploadedAt": "2026-08-26 11:13:30",
     "short_date": "Sep 02, 2024",
-    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Sep 02, 2024) | VCF"
+    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Sep 02, 2024) | VCF",
+    "preached_date": "2024-09-02",
+    "display_date": "September 02, 2024",
+    "preached_timestamp": 1725246000000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2024/08/Corny-Janzen-240818_1051.mp3": {
     "videoId": "OcR2xhY0MeQ",
@@ -762,7 +1029,10 @@
     "uploadedAt": "2026-08-26 11:15:25",
     "short_date": "Aug 19, 2024",
     "youtube_title": "Living as the People of God (1 Peter 2:1-10) - Corny Janzen (Aug 18, 2024) | VCF",
-    "passage": "1 Peter 2:1-10"
+    "passage": "1 Peter 2:1-10",
+    "preached_date": "2024-08-19",
+    "display_date": "August 19, 2024",
+    "preached_timestamp": 1724036400000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2024/08/Jake-Seimens-240811_1049.mp3": {
     "videoId": "PlwrQ-DV8sA",
@@ -771,7 +1041,10 @@
     "date": "August 12, 2024",
     "uploadedAt": "2026-08-26 11:17:00",
     "short_date": "Aug 12, 2024",
-    "youtube_title": "Growing in Grace - Jake Siemens (Aug 12, 2024) | Victory Christian Fellowship"
+    "youtube_title": "Growing in Grace - Jake Siemens (Aug 12, 2024) | Victory Christian Fellowship",
+    "preached_date": "2024-08-12",
+    "display_date": "August 12, 2024",
+    "preached_timestamp": 1723431600000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2024/08/Open-Mic-240804_1035.mp3": {
     "videoId": "Lh3GaZpfSfs",
@@ -780,34 +1053,142 @@
     "date": "August 06, 2024",
     "uploadedAt": "2026-08-26 11:20:28",
     "short_date": "Aug 06, 2024",
-    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Aug 06, 2024) | VCF"
+    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Aug 06, 2024) | VCF",
+    "preached_date": "2024-08-06",
+    "display_date": "August 06, 2024",
+    "preached_timestamp": 1722913200000
   },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/07/Marcus-Janzen-Opening.mp3": {
-    "videoId": "uDG0Vi5HgHM",
-    "title": "Opening Exhortation",
-    "speaker": "Corny Janzen",
-    "date": "2024",
-    "uploadedAt": "2026-08-26 11:32:04",
-    "short_date": "2024",
-    "youtube_title": "Opening Exhortation - Corny Janzen (2024) | Victory Christian Fellowship"
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/08/Jerry-Mawhorr-240728_1034-1.mp3": {
+    "videoId": "lgxZy8-UFkk",
+    "title": "Sunday Service - 2024-08-04",
+    "speaker": "Jerry Mawhorr",
+    "date": "2024-08-04",
+    "uploadedAt": "2026-08-27 08:09:52",
+    "youtube_title": "Sunday Service - 2024-08-04 - Jerry Mawhorr (2024-08-04) | Victory Christian Fellowship",
+    "preached_date": "2024-08-04",
+    "display_date": "August 04, 2024",
+    "preached_timestamp": 1722740400000
   },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/06/Jake-Siemens.mp3": {
-    "videoId": "_T8_DUmtGKg",
-    "title": "Woe to the Rich, Patience For the Believer (James 5)",
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/08/Jerry-Mawhorr-240728_1034.mp3": {
+    "videoId": "JBvhu5OlRyo",
+    "title": "Sunday Service - 2024-08-03",
+    "speaker": "Jerry Mawhorr",
+    "date": "2024-08-03",
+    "uploadedAt": "2026-08-27 08:10:31",
+    "youtube_title": "Sunday Service - 2024-08-03 - Jerry Mawhorr (2024-08-03) | Victory Christian Fellowship",
+    "preached_date": "2024-08-03",
+    "display_date": "August 03, 2024",
+    "preached_timestamp": 1722654000000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/08/Jerry-Mawhorr-240727_1925.mp3": {
+    "videoId": "mwgwh5pBDck",
+    "title": "Sunday Service - 2024-08-01",
+    "speaker": "Jerry Mawhorr",
+    "date": "2024-08-01",
+    "uploadedAt": "2026-08-27 08:11:07",
+    "youtube_title": "Sunday Service - 2024-08-01 - Jerry Mawhorr (2024-08-01) | Victory Christian Fellowship",
+    "preached_date": "2024-08-01",
+    "display_date": "August 01, 2024",
+    "preached_timestamp": 1722481200000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/08/Jerry-Mawhorr-240726_1934.mp3": {
+    "videoId": "72-72ink3Y8",
+    "title": "Sunday Service - 2024-08-01",
+    "speaker": "Jerry Mawhorr",
+    "date": "2024-08-01",
+    "uploadedAt": "2026-08-27 08:11:59",
+    "youtube_title": "Sunday Service - 2024-08-01 - Jerry Mawhorr (2024-08-01) | Victory Christian Fellowship",
+    "preached_date": "2024-08-01",
+    "display_date": "August 01, 2024",
+    "preached_timestamp": 1722481200000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/08/Jake-Seimens-240714_1043.wav": {
+    "videoId": "To6DtmkzdqE",
+    "title": "Jake",
     "speaker": "Jake Siemens",
-    "date": "November 05, 2023",
-    "uploadedAt": "2026-08-26 11:34:53",
-    "short_date": "Nov 05, 2023",
-    "youtube_title": "Woe to the Rich, Patience For the Believer (James 5) - Jake Siemens (Nov 05, 2023) | VCF"
+    "date": "2024-08-01",
+    "uploadedAt": "2026-08-27 08:12:32",
+    "youtube_title": "Jake - Jake Siemens (2024-08-01) | Victory Christian Fellowship",
+    "preached_date": "2024-08-01",
+    "display_date": "August 01, 2024",
+    "preached_timestamp": 1722481200000
   },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/06/Henry-Wall-A-Right-Spirit.mp3": {
-    "videoId": "d704_ZdnPDs",
-    "title": "A Right Spirit",
-    "speaker": "Henry Wall",
-    "date": "June 02, 2024",
-    "uploadedAt": "2026-08-26 11:37:02",
-    "short_date": "Jun 02, 2024",
-    "youtube_title": "A Right Spirit - Henry Wall (Jun 02, 2024) | Victory Christian Fellowship"
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/07/Henry-Wall-240714_1043.wav": {
+    "videoId": "YMm4d46xa-g",
+    "title": "Sunday Service - 2024-07-30",
+    "speaker": "Victory Christian Fellowship",
+    "date": "2024-07-30",
+    "uploadedAt": "2026-08-27 08:15:28",
+    "youtube_title": "Sunday Service - 2024-07-30 - Victory Christian Fellowship (2024-07-30) | VCF",
+    "preached_date": "2024-07-30",
+    "display_date": "July 30, 2024",
+    "preached_timestamp": 1722308400000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/07/240714_1043.wav": {
+    "videoId": "ypUpEy_uIpY",
+    "title": "Sunday Service - 2024-07-29",
+    "speaker": "Victory Christian Fellowship",
+    "date": "2024-07-29",
+    "uploadedAt": "2026-08-27 08:15:43",
+    "youtube_title": "Sunday Service - 2024-07-29 - Victory Christian Fellowship (2024-07-29) | VCF",
+    "preached_date": "2024-07-29",
+    "display_date": "July 29, 2024",
+    "preached_timestamp": 1722222000000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/08/Jerry-Mawhorr-240728_1815.mp3": {
+    "videoId": "P9I3p927LWQ",
+    "title": "Simply Believe",
+    "speaker": "Jerry Mawhorr",
+    "date": "July 28, 2024",
+    "uploadedAt": "2026-08-27 08:09:00",
+    "youtube_title": "Simply Believe - Jerry Mawhorr (July 28, 2024) | Victory Christian Fellowship",
+    "preached_date": "2024-07-28",
+    "display_date": "July 28, 2024",
+    "preached_timestamp": 1722135600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/09/Jake-Siemens-240915_1102.mp3": {
+    "videoId": "PyCC33TX4FM",
+    "title": "What Every Christian Needs from God",
+    "speaker": "Jake Siemens",
+    "date": "July 21, 2024",
+    "uploadedAt": "2026-08-27 08:08:12",
+    "youtube_title": "What Every Christian Needs from God - Jake Siemens (July 21, 2024) | Victory Christian Fellowship",
+    "preached_date": "2024-07-21",
+    "display_date": "July 21, 2024",
+    "preached_timestamp": 1721530800000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/07/Joshua-Wall-Opening.mp3": {
+    "videoId": "Wnf2WkVNbPc",
+    "title": "Opening",
+    "speaker": "Victory Christian Fellowship",
+    "date": "2024-07-10",
+    "uploadedAt": "2026-08-27 08:16:02",
+    "youtube_title": "Opening - Victory Christian Fellowship (2024-07-10) | Victory Christian Fellowship",
+    "preached_date": "2024-07-10",
+    "display_date": "July 10, 2024",
+    "preached_timestamp": 1720580400000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/07/John-Banman-2.mp3": {
+    "videoId": "cp_GeY-2vFA",
+    "title": "No Turning Back",
+    "speaker": "John Banman",
+    "date": "June 23, 2024",
+    "uploadedAt": "2026-08-27 08:17:06",
+    "youtube_title": "No Turning Back - John Banman (June 23, 2024) | Victory Christian Fellowship",
+    "preached_date": "2024-06-23",
+    "display_date": "June 23, 2024",
+    "preached_timestamp": 1719111600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/06/Cornelius-Janzen-What-does-a-new-testament-christian-look-like-.mp3": {
+    "videoId": "FnD_o8QfWu8",
+    "title": "What Does A New Testament Christian Look Like",
+    "speaker": "Corny Janzen",
+    "date": "2024-06-19",
+    "uploadedAt": "2026-08-27 08:20:54",
+    "youtube_title": "What Does A New Testament Christian Look Like - Corny Janzen (2024-06-19) | VCF",
+    "preached_date": "2024-06-19",
+    "display_date": "June 19, 2024",
+    "preached_timestamp": 1718766000000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2024/06/Jake-Siemens-Encouraged-Christians.mp3": {
     "videoId": "NZPYf2cYdlo",
@@ -816,7 +1197,194 @@
     "date": "June 06, 2024",
     "uploadedAt": "2026-08-26 11:38:51",
     "short_date": "Jun 06, 2024",
-    "youtube_title": "Encouraged Christians - Jake Siemens (Jun 06, 2024) | Victory Christian Fellowship"
+    "youtube_title": "Encouraged Christians - Jake Siemens (Jun 06, 2024) | Victory Christian Fellowship",
+    "preached_date": "2024-06-06",
+    "display_date": "June 06, 2024",
+    "preached_timestamp": 1717642800000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/06/Aaron-Knelsen.mp3": {
+    "videoId": "0sYY403MlMM",
+    "title": "Sunday Service - 2024-06-06",
+    "speaker": "Victory Christian Fellowship",
+    "date": "2024-06-06",
+    "uploadedAt": "2026-08-27 08:21:47",
+    "youtube_title": "Sunday Service - 2024-06-06 - Victory Christian Fellowship (2024-06-06) | VCF",
+    "preached_date": "2024-06-06",
+    "display_date": "June 06, 2024",
+    "preached_timestamp": 1717642800000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/06/Jake-Driedger-Opening.mp3": {
+    "videoId": "w_nUti7Ox8M",
+    "title": "Opening",
+    "speaker": "Jake Driedger",
+    "date": "2024-06-06",
+    "uploadedAt": "2026-08-27 08:23:22",
+    "youtube_title": "Opening - Jake Driedger (2024-06-06) | Victory Christian Fellowship",
+    "preached_date": "2024-06-06",
+    "display_date": "June 06, 2024",
+    "preached_timestamp": 1717642800000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/06/Corny-Janzen-The-Last-Days.mp3": {
+    "videoId": "Q018G7OUQTk",
+    "title": "The Last Days",
+    "speaker": "Corny Janzen",
+    "date": "2024-06-06",
+    "uploadedAt": "2026-08-27 08:25:03",
+    "youtube_title": "The Last Days - Corny Janzen (2024-06-06) | Victory Christian Fellowship",
+    "preached_date": "2024-06-06",
+    "display_date": "June 06, 2024",
+    "preached_timestamp": 1717642800000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/06/Henry-Wall-A-Right-Spirit.mp3": {
+    "videoId": "d704_ZdnPDs",
+    "title": "A Right Spirit",
+    "speaker": "Henry Wall",
+    "date": "June 02, 2024",
+    "uploadedAt": "2026-08-26 11:37:02",
+    "short_date": "Jun 02, 2024",
+    "youtube_title": "A Right Spirit - Henry Wall (Jun 02, 2024) | Victory Christian Fellowship",
+    "preached_date": "2024-06-02",
+    "display_date": "June 02, 2024",
+    "preached_timestamp": 1717297200000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/05/Seth-Janzen-Opening.mp3": {
+    "videoId": "Pa_XAnYrQWg",
+    "title": "Opening Exhortation",
+    "speaker": "Seth Janzen",
+    "date": "2024-05-15",
+    "uploadedAt": "2026-08-27 08:25:22",
+    "youtube_title": "Opening Exhortation (Psalm 100) - Seth Janzen (May 12, 2024) | VCF",
+    "passage": "Psalm 100",
+    "preached_date": "2024-05-15",
+    "display_date": "May 15, 2024",
+    "preached_timestamp": 1715742000000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/05/John-Banman-Message.mp3": {
+    "videoId": "HfdZqv0QQpU",
+    "title": "Let your Light Shine",
+    "speaker": "John Banman",
+    "date": "May 12, 2024",
+    "uploadedAt": "2026-08-27 08:26:35",
+    "youtube_title": "Let your Light Shine - John Banman (May 12, 2024) | Victory Christian Fellowship",
+    "preached_date": "2024-05-12",
+    "display_date": "May 12, 2024",
+    "preached_timestamp": 1715482800000
+  },
+  "May 12 2024 - John Banman - Let your Light Shine.mp4": {
+    "videoId": "H8Da00HQ_CM",
+    "youtube_title": "Let Your Light Shine - John Banman (May 12, 2024) | VCF",
+    "title": "Let Your Light Shine",
+    "speaker": "John Banman",
+    "passage": "Matthew 5:14-16",
+    "uploadedAt": "2026-08-27 08:49:13",
+    "url": "https://youtu.be/H8Da00HQ_CM",
+    "preached_date": "2024-05-12",
+    "display_date": "May 12, 2024",
+    "preached_timestamp": 1715482800000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/05/Joe-Brubacher-Opening.mp3": {
+    "videoId": "Zb6uQ36Ie1k",
+    "title": "Opening Exhortation",
+    "speaker": "Joe Brubacher",
+    "date": "2024-05-08",
+    "uploadedAt": "2026-08-27 08:27:13",
+    "youtube_title": "Opening Exhortation (Psalm 103) - Joe Brubacher (May 05, 2024) | VCF",
+    "passage": "Psalm 103:1-5",
+    "preached_date": "2024-05-08",
+    "display_date": "May 08, 2024",
+    "preached_timestamp": 1715137200000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/05/Corny-Janzen-The-Gospel.mp3": {
+    "videoId": "neZjYe2oMkU",
+    "title": "The Gospel",
+    "speaker": "Corny Janzen",
+    "date": "2024-05-08",
+    "uploadedAt": "2026-08-27 08:28:29",
+    "youtube_title": "The Gospel - Corny Janzen (2024-05-08) | Victory Christian Fellowship",
+    "preached_date": "2024-05-08",
+    "display_date": "May 08, 2024",
+    "preached_timestamp": 1715137200000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/04/Johan-Fehr-Opening.mp3": {
+    "videoId": "zPwEo-EzgS4",
+    "title": "Opening Exhortation",
+    "speaker": "Johan Fehr",
+    "date": "2024-04-30",
+    "uploadedAt": "2026-08-27 08:28:52",
+    "youtube_title": "Opening Exhortation (Psalm 122:1) - Johan Fehr (Apr 21, 2024) | VCF",
+    "passage": "Psalm 122:1",
+    "preached_date": "2024-04-30",
+    "display_date": "April 30, 2024",
+    "preached_timestamp": 1714446000000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/04/Jake-Siemens-Prayer.mp3": {
+    "videoId": "x9fettTfqRE",
+    "title": "Prayer",
+    "speaker": "Jake Siemens",
+    "date": "2024-04-30",
+    "uploadedAt": "2026-08-27 08:30:09",
+    "youtube_title": "Prayer - Jake Siemens (2024-04-30) | Victory Christian Fellowship",
+    "preached_date": "2024-04-30",
+    "display_date": "April 30, 2024",
+    "preached_timestamp": 1714446000000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/04/Matthew-Janzen-Opening.mp3": {
+    "videoId": "Y4JCQ-Dlqqs",
+    "title": "Opening Exhortation",
+    "speaker": "Matthew Janzen",
+    "date": "2024-04-15",
+    "uploadedAt": "2026-08-27 08:30:23",
+    "youtube_title": "Opening Exhortation (Psalm 95:1-7) - Matthew Janzen (Apr 14, 2024) | VCF",
+    "passage": "Psalm 95:1-7",
+    "preached_date": "2024-04-15",
+    "display_date": "April 15, 2024",
+    "preached_timestamp": 1713150000000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/04/Corny-Janzen-3.mp3": {
+    "videoId": "7QDDl-u43kc",
+    "title": "Sunday Service - 2024-04-15",
+    "speaker": "Corny Janzen",
+    "date": "2024-04-15",
+    "uploadedAt": "2026-08-27 08:31:29",
+    "youtube_title": "Sunday Service - 2024-04-15 - Corny Janzen (2024-04-15) | Victory Christian Fellowship",
+    "preached_date": "2024-04-15",
+    "display_date": "April 15, 2024",
+    "preached_timestamp": 1713150000000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/04/Peter-Driedger-Opening.mp3": {
+    "videoId": "XhdIFCX3JgI",
+    "title": "Opening Exhortation",
+    "speaker": "Peter Driedger",
+    "date": "2024-04-15",
+    "uploadedAt": "2026-08-27 08:31:43",
+    "youtube_title": "Opening Exhortation (Psalm 103:1-5) - Peter Driedger (Apr 07, 2024) | VCF",
+    "passage": "Psalm 103:1-5",
+    "preached_date": "2024-04-15",
+    "display_date": "April 15, 2024",
+    "preached_timestamp": 1713150000000
+  },
+  "2024-04-15 - Corny Janzen - Sunday Service - 2024-04-15.mp4": {
+    "videoId": "D27j5qUumyU",
+    "youtube_title": "The Purpose of Good Works - Corny Janzen (Apr 14, 2024) | VCF",
+    "title": "The Purpose of Good Works",
+    "speaker": "Corny Janzen",
+    "passage": "Galatians 6:9-10; Titus 3:8",
+    "uploadedAt": "2026-08-27 08:52:30",
+    "url": "https://youtu.be/D27j5qUumyU",
+    "preached_date": "2024-04-14",
+    "display_date": "April 14, 2024",
+    "preached_timestamp": 1713063600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/04/Where-is-your-Identity-Henry-Klassen-240331.m4a": {
+    "videoId": "d7lBskeTFV0",
+    "title": "Where Is Your Identity",
+    "speaker": "Victory Christian Fellowship",
+    "date": "2024-04-11",
+    "uploadedAt": "2026-08-27 08:33:32",
+    "youtube_title": "Where Is Your Identity - Victory Christian Fellowship (2024-04-11) | Victory Christian Fellowship",
+    "preached_date": "2024-04-11",
+    "display_date": "April 11, 2024",
+    "preached_timestamp": 1712804400000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2024/04/John-15-John-Banman-240331.m4a": {
     "videoId": "cYkJHGWA46E",
@@ -825,7 +1393,79 @@
     "date": "March 31, 2024",
     "uploadedAt": "2026-08-26 11:50:04",
     "short_date": "Mar 31, 2024",
-    "youtube_title": "John 15 Exposition - John Banman (Mar 31, 2024) | Victory Christian Fellowship"
+    "youtube_title": "John 15 Exposition - John Banman (Mar 31, 2024) | Victory Christian Fellowship",
+    "preached_date": "2024-03-31",
+    "display_date": "March 31, 2024",
+    "preached_timestamp": 1711854000000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/02/John-Banman.mp3": {
+    "videoId": "wBZITacc96M",
+    "title": "John 15 Exposition",
+    "speaker": "John Banman",
+    "date": "March 31, 2024",
+    "uploadedAt": "2026-08-27 08:39:22",
+    "youtube_title": "John 15 Exposition - John Banman (March 31, 2024) | Victory Christian Fellowship",
+    "preached_date": "2024-03-31",
+    "display_date": "March 31, 2024",
+    "preached_timestamp": 1711854000000
+  },
+  "March 31 2024 - Henry Klassen - Where is Your Identity.mp4": {
+    "videoId": "H8v7Rt2q1NE",
+    "youtube_title": "In What is Your Identity? - Henry Klassen (Mar 31, 2024) | VCF",
+    "title": "In What is Your Identity?",
+    "speaker": "Henry Klassen",
+    "passage": "Galatians 2:20; 2 Corinthians 5:17",
+    "uploadedAt": "2026-08-27 08:47:28",
+    "url": "https://youtu.be/H8v7Rt2q1NE",
+    "preached_date": "2024-03-31",
+    "display_date": "March 31, 2024",
+    "preached_timestamp": 1711854000000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/03/Henry-Wall-2.mp3": {
+    "videoId": "qLJfYsxARHk",
+    "title": "Sunday Service - 2024-03-12",
+    "speaker": "Victory Christian Fellowship",
+    "date": "2024-03-12",
+    "uploadedAt": "2026-08-27 08:36:01",
+    "youtube_title": "Sunday Service - 2024-03-12 - Victory Christian Fellowship (2024-03-12) | VCF",
+    "preached_date": "2024-03-12",
+    "display_date": "March 12, 2024",
+    "preached_timestamp": 1710212400000
+  },
+  "2024-03-12 - Henry Wall - Sunday Service - 2024-03-12.mp4": {
+    "videoId": "H_8_VzXfGe4",
+    "youtube_title": "Knit Together in Love - Henry Wall (Mar 10, 2024) | VCF",
+    "title": "Knit Together in Love",
+    "speaker": "Henry Wall",
+    "passage": "Colossians 2:2-3; Ephesians 4:1-3",
+    "uploadedAt": "2026-08-27 08:53:54",
+    "url": "https://youtu.be/H_8_VzXfGe4",
+    "preached_date": "2024-03-10",
+    "display_date": "March 10, 2024",
+    "preached_timestamp": 1710043200000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/03/Corny-Janzen-2.mp3": {
+    "videoId": "yHmoMsJ7D6w",
+    "title": "Sunday Service - 2024-03-07",
+    "speaker": "Corny Janzen",
+    "date": "2024-03-07",
+    "uploadedAt": "2026-08-27 08:37:15",
+    "youtube_title": "Sunday Service - 2024-03-07 - Corny Janzen (2024-03-07) | Victory Christian Fellowship",
+    "preached_date": "2024-03-07",
+    "display_date": "March 07, 2024",
+    "preached_timestamp": 1709784000000
+  },
+  "2024-03-07 - Corny Janzen - Sunday Service - 2024-03-07.mp4": {
+    "videoId": "7yGqZ7F5J0w",
+    "youtube_title": "Being Taught of Christ - Corny Janzen (Mar 07, 2024) | VCF",
+    "title": "Being Taught of Christ",
+    "speaker": "Corny Janzen",
+    "passage": "Galatians 1:11-24; Ephesians 4:20-24",
+    "uploadedAt": "2026-08-27 09:02:56",
+    "url": "https://youtu.be/7yGqZ7F5J0w",
+    "preached_date": "2024-03-07",
+    "display_date": "March 07, 2024",
+    "preached_timestamp": 1709784000000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2024/02/Feb-25-Open-Sharing.mp3": {
     "videoId": "ztYoPxy-Ihk",
@@ -834,7 +1474,57 @@
     "date": "February 27, 2024",
     "uploadedAt": "2026-08-26 11:56:10",
     "short_date": "Feb 27, 2024",
-    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Feb 27, 2024) | VCF"
+    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (Feb 27, 2024) | VCF",
+    "preached_date": "2024-02-27",
+    "display_date": "February 27, 2024",
+    "preached_timestamp": 1709006400000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/02/Corny-Janzen.mp3": {
+    "videoId": "-GolbeHl4wo",
+    "title": "Sunday Service - 2024-02-19",
+    "speaker": "Corny Janzen",
+    "date": "2024-02-19",
+    "uploadedAt": "2026-08-27 08:37:59",
+    "youtube_title": "Sunday Service - 2024-02-19 - Corny Janzen (2024-02-19) | Victory Christian Fellowship",
+    "preached_date": "2024-02-19",
+    "display_date": "February 19, 2024",
+    "preached_timestamp": 1708315200000
+  },
+  "2024-02-19 - Corny Janzen - Sunday Service - 2024-02-19.mp4": {
+    "videoId": "8usPojBYKMg",
+    "youtube_title": "Building Biblical Convictions - Corny Janzen (Feb 18, 2024) | VCF",
+    "title": "Building Biblical Convictions",
+    "speaker": "Corny Janzen",
+    "passage": "Romans 14:5; 2 Timothy 1:12-14",
+    "uploadedAt": "2026-08-27 09:11:46",
+    "url": "https://youtu.be/8usPojBYKMg",
+    "preached_date": "2024-02-18",
+    "display_date": "February 18, 2024",
+    "preached_timestamp": 1708228800000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/02/Jake-Siemens.mp3": {
+    "videoId": "XCmIkUg7LOQ",
+    "title": "Walking in Wisdom Toward Those Outside",
+    "speaker": "Jake Siemens",
+    "date": "2024-02-16",
+    "uploadedAt": "2026-08-27 08:39:03",
+    "youtube_title": "Walking in Wisdom Toward Those Outside - Jake Siemens (Feb 16, 2024) | VCF",
+    "passage": "Colossians 4:5-6",
+    "preached_date": "2024-02-16",
+    "display_date": "February 16, 2024",
+    "preached_timestamp": 1708056000000
+  },
+  "February 11 2024 - John Banman - 1 Corinthians 13.mp4": {
+    "videoId": "H8x_1GaxHNI",
+    "youtube_title": "1 Corinthians 13: Love Never Fails - John Banman (Feb 11, 2024) | VCF",
+    "title": "1 Corinthians 13: Love Never Fails",
+    "speaker": "John Banman",
+    "passage": "1 Corinthians 13:1-13",
+    "uploadedAt": "2026-08-27 08:46:28",
+    "url": "https://youtu.be/H8x_1GaxHNI",
+    "preached_date": "2024-02-11",
+    "display_date": "February 11, 2024",
+    "preached_timestamp": 1707624000000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2024/01/Henry-Wall.mp3": {
     "videoId": "Sq-yRPkolqE",
@@ -844,349 +1534,10 @@
     "uploadedAt": "2026-08-26 12:01:01",
     "short_date": "Jan 29, 2024",
     "youtube_title": "Looking Unto Jesus (Hebrews 12:1-2) - Henry Wall (Jan 28, 2024) | VCF",
-    "passage": "Hebrews 12:1-2"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2026/05/Jake-Siemens-260428_0623.mp3": {
-    "videoId": "iiQ1ffTm8AI",
-    "title": "The Authority of the Word of Jesus (Mark 1:21-28)",
-    "speaker": "Jake Siemens",
-    "date": "May 03, 2026",
-    "uploadedAt": "2026-08-26 12:46:07",
-    "short_date": "May 03, 2026",
-    "youtube_title": "The Authority of the Word of Jesus (Mark 1:21-28) - Jake Siemens (May 03, 2026) | VCF"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2026/04/Jake-Siemens-260407_0548.mp3": {
-    "videoId": "jBFa6oUjYiA",
-    "title": "The Gospel of the Kingdom Demands a Response (Mark 1:14-20)",
-    "speaker": "Jake Siemens",
-    "date": "April 12, 2026",
-    "uploadedAt": "2026-08-26 13:47:14"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/07/Jerry-Mawhorr-250713_1840.mp3": {
-    "videoId": "QkfG2Dz9N-8",
-    "title": "A Fresh Look at the New Covenant (Part 3)",
-    "speaker": "Jerry Mawhorr",
-    "date": "July 13, 2025",
-    "uploadedAt": "2026-08-26 13:48:50"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2025/05/Open-Sharing-250511_1042.mp3": {
-    "videoId": "ipKaPeVJodM",
-    "title": "Open Sharing & Testimonies",
-    "speaker": "Victory Christian Fellowship",
-    "date": "May 19, 2025",
-    "uploadedAt": "2026-08-26 14:51:51",
-    "short_date": "May 19, 2025",
-    "youtube_title": "Open Sharing & Testimonies - Victory Christian Fellowship (May 19, 2025) | VCF"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2026/07/Corny-Janzen-260719_1108.mp3": {
-    "videoId": "RIlCmMC32Os",
-    "title": "Zacchaeus Example of Humility",
-    "speaker": "Corny Janzen",
-    "date": "July 19, 2026",
-    "uploadedAt": "2026-08-26 22:29:32",
-    "youtube_title": "Zacchaeus Example of Humility - Corny Janzen (July 19, 2026) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2026/07/Jerry-Mawhorr-4-260712_1829.mp3": {
-    "videoId": "4pvtT16ol08",
-    "title": "In This World You Shall Have Tribulation",
-    "speaker": "Jerry Mawhorr",
-    "date": "July 12, 2026",
-    "uploadedAt": "2026-08-27 04:37:48",
-    "youtube_title": "In This World You Shall Have Tribulation - Jerry Mawhorr (July 12, 2026) | VCF"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/11/Open-Sharing-241027_1050.mp3": {
-    "videoId": "iU6m9jsd3dU",
-    "title": "Open Sharing & Testimonies",
-    "speaker": "Open Sharing",
-    "date": "2024-11-07",
-    "uploadedAt": "2026-08-27 06:44:44",
-    "youtube_title": "Open Sharing & Testimonies - Open Sharing (2024-11-07) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/10/John-Enns-241020_1045.mp3": {
-    "videoId": "dTyytYARubQ",
-    "title": "Sunday Service - 2024-10-23",
-    "speaker": "Victory Christian Fellowship",
-    "date": "2024-10-23",
-    "uploadedAt": "2026-08-27 08:06:37",
-    "youtube_title": "Sunday Service - 2024-10-23 - Victory Christian Fellowship (2024-10-23) | VCF"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/09/Jske-Drieger-240922_1047.mp3": {
-    "videoId": "chNFplSUcf8",
-    "title": "Jske Drieger",
-    "speaker": "Victory Christian Fellowship",
-    "date": "2024-09-23",
-    "uploadedAt": "2026-08-27 08:07:32",
-    "youtube_title": "Jske Drieger - Victory Christian Fellowship (2024-09-23) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/09/Jake-Siemens-240915_1102.mp3": {
-    "videoId": "PyCC33TX4FM",
-    "title": "What Every Christian Needs from God",
-    "speaker": "Jake Siemens",
-    "date": "July 21, 2024",
-    "uploadedAt": "2026-08-27 08:08:12",
-    "youtube_title": "What Every Christian Needs from God - Jake Siemens (July 21, 2024) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/08/Jerry-Mawhorr-240728_1815.mp3": {
-    "videoId": "P9I3p927LWQ",
-    "title": "Simply Believe",
-    "speaker": "Jerry Mawhorr",
-    "date": "July 28, 2024",
-    "uploadedAt": "2026-08-27 08:09:00",
-    "youtube_title": "Simply Believe - Jerry Mawhorr (July 28, 2024) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/08/Jerry-Mawhorr-240728_1034-1.mp3": {
-    "videoId": "lgxZy8-UFkk",
-    "title": "Sunday Service - 2024-08-04",
-    "speaker": "Jerry Mawhorr",
-    "date": "2024-08-04",
-    "uploadedAt": "2026-08-27 08:09:52",
-    "youtube_title": "Sunday Service - 2024-08-04 - Jerry Mawhorr (2024-08-04) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/08/Jerry-Mawhorr-240728_1034.mp3": {
-    "videoId": "JBvhu5OlRyo",
-    "title": "Sunday Service - 2024-08-03",
-    "speaker": "Jerry Mawhorr",
-    "date": "2024-08-03",
-    "uploadedAt": "2026-08-27 08:10:31",
-    "youtube_title": "Sunday Service - 2024-08-03 - Jerry Mawhorr (2024-08-03) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/08/Jerry-Mawhorr-240727_1925.mp3": {
-    "videoId": "mwgwh5pBDck",
-    "title": "Sunday Service - 2024-08-01",
-    "speaker": "Jerry Mawhorr",
-    "date": "2024-08-01",
-    "uploadedAt": "2026-08-27 08:11:07",
-    "youtube_title": "Sunday Service - 2024-08-01 - Jerry Mawhorr (2024-08-01) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/08/Jerry-Mawhorr-240726_1934.mp3": {
-    "videoId": "72-72ink3Y8",
-    "title": "Sunday Service - 2024-08-01",
-    "speaker": "Jerry Mawhorr",
-    "date": "2024-08-01",
-    "uploadedAt": "2026-08-27 08:11:59",
-    "youtube_title": "Sunday Service - 2024-08-01 - Jerry Mawhorr (2024-08-01) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/08/Jake-Seimens-240714_1043.wav": {
-    "videoId": "To6DtmkzdqE",
-    "title": "Jake",
-    "speaker": "Jake Siemens",
-    "date": "2024-08-01",
-    "uploadedAt": "2026-08-27 08:12:32",
-    "youtube_title": "Jake - Jake Siemens (2024-08-01) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/07/Henry-Wall-240714_1043.wav": {
-    "videoId": "YMm4d46xa-g",
-    "title": "Sunday Service - 2024-07-30",
-    "speaker": "Victory Christian Fellowship",
-    "date": "2024-07-30",
-    "uploadedAt": "2026-08-27 08:15:28",
-    "youtube_title": "Sunday Service - 2024-07-30 - Victory Christian Fellowship (2024-07-30) | VCF"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/07/240714_1043.wav": {
-    "videoId": "ypUpEy_uIpY",
-    "title": "Sunday Service - 2024-07-29",
-    "speaker": "Victory Christian Fellowship",
-    "date": "2024-07-29",
-    "uploadedAt": "2026-08-27 08:15:43",
-    "youtube_title": "Sunday Service - 2024-07-29 - Victory Christian Fellowship (2024-07-29) | VCF"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/07/Joshua-Wall-Opening.mp3": {
-    "videoId": "Wnf2WkVNbPc",
-    "title": "Opening",
-    "speaker": "Victory Christian Fellowship",
-    "date": "2024-07-10",
-    "uploadedAt": "2026-08-27 08:16:02",
-    "youtube_title": "Opening - Victory Christian Fellowship (2024-07-10) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/07/John-Banman-2.mp3": {
-    "videoId": "cp_GeY-2vFA",
-    "title": "No Turning Back",
-    "speaker": "John Banman",
-    "date": "June 23, 2024",
-    "uploadedAt": "2026-08-27 08:17:06",
-    "youtube_title": "No Turning Back - John Banman (June 23, 2024) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/07/Jake-Siemens-Message.mp3": {
-    "videoId": "6-UL9msENI8",
-    "title": "Any Afflicted, Merry, Sick?",
-    "speaker": "Jake Siemens",
-    "date": "November 26, 2023",
-    "uploadedAt": "2026-08-27 08:19:04",
-    "youtube_title": "Any Afflicted, Merry, Sick? - Jake Siemens (November 26, 2023) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/06/Cornelius-Janzen-What-does-a-new-testament-christian-look-like-.mp3": {
-    "videoId": "FnD_o8QfWu8",
-    "title": "What Does A New Testament Christian Look Like",
-    "speaker": "Corny Janzen",
-    "date": "2024-06-19",
-    "uploadedAt": "2026-08-27 08:20:54",
-    "youtube_title": "What Does A New Testament Christian Look Like - Corny Janzen (2024-06-19) | VCF"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/06/Aaron-Knelsen.mp3": {
-    "videoId": "0sYY403MlMM",
-    "title": "Sunday Service - 2024-06-06",
-    "speaker": "Victory Christian Fellowship",
-    "date": "2024-06-06",
-    "uploadedAt": "2026-08-27 08:21:47",
-    "youtube_title": "Sunday Service - 2024-06-06 - Victory Christian Fellowship (2024-06-06) | VCF"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/06/Jake-Driedger-Opening.mp3": {
-    "videoId": "w_nUti7Ox8M",
-    "title": "Opening",
-    "speaker": "Jake Driedger",
-    "date": "2024-06-06",
-    "uploadedAt": "2026-08-27 08:23:22",
-    "youtube_title": "Opening - Jake Driedger (2024-06-06) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/06/Corny-Janzen-The-Last-Days.mp3": {
-    "videoId": "Q018G7OUQTk",
-    "title": "The Last Days",
-    "speaker": "Corny Janzen",
-    "date": "2024-06-06",
-    "uploadedAt": "2026-08-27 08:25:03",
-    "youtube_title": "The Last Days - Corny Janzen (2024-06-06) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/05/Seth-Janzen-Opening.mp3": {
-    "videoId": "Pa_XAnYrQWg",
-    "title": "Opening Exhortation",
-    "speaker": "Seth Janzen",
-    "date": "2024-05-15",
-    "uploadedAt": "2026-08-27 08:25:22",
-    "youtube_title": "Opening Exhortation (Psalm 100) - Seth Janzen (May 12, 2024) | VCF",
-    "passage": "Psalm 100"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/05/John-Banman-Message.mp3": {
-    "videoId": "HfdZqv0QQpU",
-    "title": "Let your Light Shine",
-    "speaker": "John Banman",
-    "date": "May 12, 2024",
-    "uploadedAt": "2026-08-27 08:26:35",
-    "youtube_title": "Let your Light Shine - John Banman (May 12, 2024) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/05/Joe-Brubacher-Opening.mp3": {
-    "videoId": "Zb6uQ36Ie1k",
-    "title": "Opening Exhortation",
-    "speaker": "Joe Brubacher",
-    "date": "2024-05-08",
-    "uploadedAt": "2026-08-27 08:27:13",
-    "youtube_title": "Opening Exhortation (Psalm 103) - Joe Brubacher (May 05, 2024) | VCF",
-    "passage": "Psalm 103:1-5"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/05/Corny-Janzen-The-Gospel.mp3": {
-    "videoId": "neZjYe2oMkU",
-    "title": "The Gospel",
-    "speaker": "Corny Janzen",
-    "date": "2024-05-08",
-    "uploadedAt": "2026-08-27 08:28:29",
-    "youtube_title": "The Gospel - Corny Janzen (2024-05-08) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/04/Johan-Fehr-Opening.mp3": {
-    "videoId": "zPwEo-EzgS4",
-    "title": "Opening Exhortation",
-    "speaker": "Johan Fehr",
-    "date": "2024-04-30",
-    "uploadedAt": "2026-08-27 08:28:52",
-    "youtube_title": "Opening Exhortation (Psalm 122:1) - Johan Fehr (Apr 21, 2024) | VCF",
-    "passage": "Psalm 122:1"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/04/Jake-Siemens-Prayer.mp3": {
-    "videoId": "x9fettTfqRE",
-    "title": "Prayer",
-    "speaker": "Jake Siemens",
-    "date": "2024-04-30",
-    "uploadedAt": "2026-08-27 08:30:09",
-    "youtube_title": "Prayer - Jake Siemens (2024-04-30) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/04/Matthew-Janzen-Opening.mp3": {
-    "videoId": "Y4JCQ-Dlqqs",
-    "title": "Opening Exhortation",
-    "speaker": "Matthew Janzen",
-    "date": "2024-04-15",
-    "uploadedAt": "2026-08-27 08:30:23",
-    "youtube_title": "Opening Exhortation (Psalm 95:1-7) - Matthew Janzen (Apr 14, 2024) | VCF",
-    "passage": "Psalm 95:1-7"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/04/Corny-Janzen-3.mp3": {
-    "videoId": "7QDDl-u43kc",
-    "title": "Sunday Service - 2024-04-15",
-    "speaker": "Corny Janzen",
-    "date": "2024-04-15",
-    "uploadedAt": "2026-08-27 08:31:29",
-    "youtube_title": "Sunday Service - 2024-04-15 - Corny Janzen (2024-04-15) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/04/Peter-Driedger-Opening.mp3": {
-    "videoId": "XhdIFCX3JgI",
-    "title": "Opening Exhortation",
-    "speaker": "Peter Driedger",
-    "date": "2024-04-15",
-    "uploadedAt": "2026-08-27 08:31:43",
-    "youtube_title": "Opening Exhortation (Psalm 103:1-5) - Peter Driedger (Apr 07, 2024) | VCF",
-    "passage": "Psalm 103:1-5"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/04/Jake-Siemens-3.mp3": {
-    "videoId": "ZpsGwB9oPeo",
-    "title": "A Friend of the World or a Friend of God",
-    "speaker": "Jake Siemens",
-    "date": "July 30, 2023",
-    "uploadedAt": "2026-08-27 08:32:50",
-    "youtube_title": "A Friend of the World or a Friend of God - Jake Siemens (July 30, 2023) | VCF"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/04/Where-is-your-Identity-Henry-Klassen-240331.m4a": {
-    "videoId": "d7lBskeTFV0",
-    "title": "Where Is Your Identity",
-    "speaker": "Victory Christian Fellowship",
-    "date": "2024-04-11",
-    "uploadedAt": "2026-08-27 08:33:32",
-    "youtube_title": "Where Is Your Identity - Victory Christian Fellowship (2024-04-11) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/03/Jake-Siemens-2.mp3": {
-    "videoId": "4MJ0d7tzwzQ",
-    "title": "Taming the Untamable Tongue",
-    "speaker": "Jake Siemens",
-    "date": "April 9, 2023",
-    "uploadedAt": "2026-08-27 08:34:26",
-    "youtube_title": "Taming the Untamable Tongue - Jake Siemens (April 9, 2023) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/03/Henry-Wall-2.mp3": {
-    "videoId": "qLJfYsxARHk",
-    "title": "Sunday Service - 2024-03-12",
-    "speaker": "Victory Christian Fellowship",
-    "date": "2024-03-12",
-    "uploadedAt": "2026-08-27 08:36:01",
-    "youtube_title": "Sunday Service - 2024-03-12 - Victory Christian Fellowship (2024-03-12) | VCF"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/03/Corny-Janzen-2.mp3": {
-    "videoId": "yHmoMsJ7D6w",
-    "title": "Sunday Service - 2024-03-07",
-    "speaker": "Corny Janzen",
-    "date": "2024-03-07",
-    "uploadedAt": "2026-08-27 08:37:15",
-    "youtube_title": "Sunday Service - 2024-03-07 - Corny Janzen (2024-03-07) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/02/Corny-Janzen.mp3": {
-    "videoId": "-GolbeHl4wo",
-    "title": "Sunday Service - 2024-02-19",
-    "speaker": "Corny Janzen",
-    "date": "2024-02-19",
-    "uploadedAt": "2026-08-27 08:37:59",
-    "youtube_title": "Sunday Service - 2024-02-19 - Corny Janzen (2024-02-19) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/02/Jake-Siemens.mp3": {
-    "videoId": "XCmIkUg7LOQ",
-    "title": "Walking in Wisdom Toward Those Outside",
-    "speaker": "Jake Siemens",
-    "date": "2024-02-16",
-    "uploadedAt": "2026-08-27 08:39:03",
-    "youtube_title": "Walking in Wisdom Toward Those Outside - Jake Siemens (Feb 16, 2024) | VCF",
-    "passage": "Colossians 4:5-6"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/02/John-Banman.mp3": {
-    "videoId": "wBZITacc96M",
-    "title": "John 15 Exposition",
-    "speaker": "John Banman",
-    "date": "March 31, 2024",
-    "uploadedAt": "2026-08-27 08:39:22",
-    "youtube_title": "John 15 Exposition - John Banman (March 31, 2024) | Victory Christian Fellowship"
+    "passage": "Hebrews 12:1-2",
+    "preached_date": "2024-01-29",
+    "display_date": "January 29, 2024",
+    "preached_timestamp": 1706500800000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2024/01/Open-Sharing-2.mp3": {
     "videoId": "hHS5HWsEW20",
@@ -1194,7 +1545,10 @@
     "speaker": "Open Sharing",
     "date": "2024-01-29",
     "uploadedAt": "2026-08-27 08:40:57",
-    "youtube_title": "Open Sharing & Testimonies - Open Sharing (2024-01-29) | Victory Christian Fellowship"
+    "youtube_title": "Open Sharing & Testimonies - Open Sharing (2024-01-29) | Victory Christian Fellowship",
+    "preached_date": "2024-01-29",
+    "display_date": "January 29, 2024",
+    "preached_timestamp": 1706500800000
   },
   "https://victorychristianfellowship.ca/wp-content/uploads/2024/01/Open-Sharing.mp3": {
     "videoId": "QEDZLtu6pqU",
@@ -1202,87 +1556,10 @@
     "speaker": "Open Sharing",
     "date": "2024-01-29",
     "uploadedAt": "2026-08-27 08:42:25",
-    "youtube_title": "Open Sharing & Testimonies - Open Sharing (2024-01-29) | Victory Christian Fellowship"
-  },
-  "https://victorychristianfellowship.ca/wp-content/uploads/2024/01/240114_1202.mp3": {
-    "videoId": "HwTcw84XfFs",
-    "title": "Sunday Service - 2024-01-16",
-    "speaker": "Victory Christian Fellowship",
-    "date": "2024-01-16",
-    "uploadedAt": "2026-08-27 08:43:55",
-    "youtube_title": "Sunday Service - 2024-01-16 - Victory Christian Fellowship (2024-01-16) | VCF"
-  },
-  "February 11 2024 - John Banman - 1 Corinthians 13.mp4": {
-    "videoId": "H8x_1GaxHNI",
-    "youtube_title": "1 Corinthians 13: Love Never Fails - John Banman (Feb 11, 2024) | VCF",
-    "title": "1 Corinthians 13: Love Never Fails",
-    "speaker": "John Banman",
-    "passage": "1 Corinthians 13:1-13",
-    "uploadedAt": "2026-08-27 08:46:28",
-    "url": "https://youtu.be/H8x_1GaxHNI"
-  },
-  "March 31 2024 - Henry Klassen - Where is Your Identity.mp4": {
-    "videoId": "H8v7Rt2q1NE",
-    "youtube_title": "In What is Your Identity? - Henry Klassen (Mar 31, 2024) | VCF",
-    "title": "In What is Your Identity?",
-    "speaker": "Henry Klassen",
-    "passage": "Galatians 2:20; 2 Corinthians 5:17",
-    "uploadedAt": "2026-08-27 08:47:28",
-    "url": "https://youtu.be/H8v7Rt2q1NE"
-  },
-  "May 12 2024 - John Banman - Let your Light Shine.mp4": {
-    "videoId": "H8Da00HQ_CM",
-    "youtube_title": "Let Your Light Shine - John Banman (May 12, 2024) | VCF",
-    "title": "Let Your Light Shine",
-    "speaker": "John Banman",
-    "passage": "Matthew 5:14-16",
-    "uploadedAt": "2026-08-27 08:49:13",
-    "url": "https://youtu.be/H8Da00HQ_CM"
-  },
-  "November 19 2023 - Corny Janzen - 7 Types of Conscience in the Bible.mp4": {
-    "videoId": "gF0r0r0hcPM",
-    "youtube_title": "7 Types of Conscience in the Bible - Corny Janzen (Nov 19, 2023) | VCF",
-    "title": "7 Types of Conscience in the Bible",
-    "speaker": "Corny Janzen",
-    "passage": "1 Timothy 1:5; Hebrews 9:14",
-    "uploadedAt": "2026-08-27 08:51:23",
-    "url": "https://youtu.be/gF0r0r0hcPM"
-  },
-  "2024-04-15 - Corny Janzen - Sunday Service - 2024-04-15.mp4": {
-    "videoId": "D27j5qUumyU",
-    "youtube_title": "The Purpose of Good Works - Corny Janzen (Apr 14, 2024) | VCF",
-    "title": "The Purpose of Good Works",
-    "speaker": "Corny Janzen",
-    "passage": "Galatians 6:9-10; Titus 3:8",
-    "uploadedAt": "2026-08-27 08:52:30",
-    "url": "https://youtu.be/D27j5qUumyU"
-  },
-  "2024-03-12 - Henry Wall - Sunday Service - 2024-03-12.mp4": {
-    "videoId": "H_8_VzXfGe4",
-    "youtube_title": "Knit Together in Love - Henry Wall (Mar 10, 2024) | VCF",
-    "title": "Knit Together in Love",
-    "speaker": "Henry Wall",
-    "passage": "Colossians 2:2-3; Ephesians 4:1-3",
-    "uploadedAt": "2026-08-27 08:53:54",
-    "url": "https://youtu.be/H_8_VzXfGe4"
-  },
-  "2024-03-07 - Corny Janzen - Sunday Service - 2024-03-07.mp4": {
-    "videoId": "7yGqZ7F5J0w",
-    "youtube_title": "Being Taught of Christ - Corny Janzen (Mar 07, 2024) | VCF",
-    "title": "Being Taught of Christ",
-    "speaker": "Corny Janzen",
-    "passage": "Galatians 1:11-24; Ephesians 4:20-24",
-    "uploadedAt": "2026-08-27 09:02:56",
-    "url": "https://youtu.be/7yGqZ7F5J0w"
-  },
-  "2024-02-19 - Corny Janzen - Sunday Service - 2024-02-19.mp4": {
-    "videoId": "8usPojBYKMg",
-    "youtube_title": "Building Biblical Convictions - Corny Janzen (Feb 18, 2024) | VCF",
-    "title": "Building Biblical Convictions",
-    "speaker": "Corny Janzen",
-    "passage": "Romans 14:5; 2 Timothy 1:12-14",
-    "uploadedAt": "2026-08-27 09:11:46",
-    "url": "https://youtu.be/8usPojBYKMg"
+    "youtube_title": "Open Sharing & Testimonies - Open Sharing (2024-01-29) | Victory Christian Fellowship",
+    "preached_date": "2024-01-29",
+    "display_date": "January 29, 2024",
+    "preached_timestamp": 1706500800000
   },
   "2024-01-16 - Victory Christian Fellowship - Sunday Service - 2024-01-16.mp4": {
     "videoId": "IgpJgkrysrI",
@@ -1291,7 +1568,21 @@
     "speaker": "Henry Wall",
     "passage": "Hebrews 12:16-17; Romans 14:17",
     "uploadedAt": "2026-08-27 09:16:38",
-    "url": "https://youtu.be/IgpJgkrysrI"
+    "url": "https://youtu.be/IgpJgkrysrI",
+    "preached_date": "2024-01-21",
+    "display_date": "January 21, 2024",
+    "preached_timestamp": 1705809600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/01/240114_1202.mp3": {
+    "videoId": "HwTcw84XfFs",
+    "title": "Sunday Service - 2024-01-16",
+    "speaker": "Victory Christian Fellowship",
+    "date": "2024-01-16",
+    "uploadedAt": "2026-08-27 08:43:55",
+    "youtube_title": "Sunday Service - 2024-01-16 - Victory Christian Fellowship (2024-01-16) | VCF",
+    "preached_date": "2024-01-16",
+    "display_date": "January 16, 2024",
+    "preached_timestamp": 1705377600000
   },
   "2024-01-07 - Victory Christian Fellowship - Aud Wa0004.mp4": {
     "videoId": "G6lgq86mwGY",
@@ -1300,16 +1591,10 @@
     "speaker": "Jake Siemens",
     "passage": "Philippians 3:13-14; Psalm 90:12",
     "uploadedAt": "2026-08-27 09:17:40",
-    "url": "https://youtu.be/G6lgq86mwGY"
-  },
-  "2024-01-06 - John Enns - 07-16-2023 Prayer.mp4": {
-    "videoId": "mfIRI84aQp4",
-    "youtube_title": "Persistent Prayer - John Enns (Jul 16, 2023) | VCF",
-    "title": "Persistent Prayer",
-    "speaker": "John Enns",
-    "passage": "Luke 18:1-8; James 5:16",
-    "uploadedAt": "2026-08-27 09:32:33",
-    "url": "https://youtu.be/mfIRI84aQp4"
+    "url": "https://youtu.be/G6lgq86mwGY",
+    "preached_date": "2024-01-07",
+    "display_date": "January 07, 2024",
+    "preached_timestamp": 1704600000000
   },
   "2024-01-06 - Victory Christian Fellowship - Sunday Service - 2024-01-06.mp4": {
     "videoId": "Z1s9I2_MMp0",
@@ -1318,7 +1603,34 @@
     "speaker": "Victory Christian Fellowship",
     "passage": "Romans 12:17-21",
     "uploadedAt": "2026-08-27 09:55:42",
-    "url": "https://youtu.be/Z1s9I2_MMp0"
+    "url": "https://youtu.be/Z1s9I2_MMp0",
+    "preached_date": "2024-01-06",
+    "display_date": "January 06, 2024",
+    "preached_timestamp": 1704513600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2026/06/Jake-Driedger-260628_1030.mp3": {
+    "videoId": "QWwszjCms4A",
+    "title": "Opening Exhortation",
+    "speaker": "Jake Driedger",
+    "date": "2024",
+    "uploadedAt": "2026-08-26 08:11:50",
+    "short_date": "2024",
+    "youtube_title": "Opening Exhortation - Jake Driedger (2024) | Victory Christian Fellowship",
+    "preached_date": "2024-01-01",
+    "display_date": "January 01, 2024",
+    "preached_timestamp": 1704081600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/07/Marcus-Janzen-Opening.mp3": {
+    "videoId": "uDG0Vi5HgHM",
+    "title": "Opening Exhortation",
+    "speaker": "Corny Janzen",
+    "date": "2024",
+    "uploadedAt": "2026-08-26 11:32:04",
+    "short_date": "2024",
+    "youtube_title": "Opening Exhortation - Corny Janzen (2024) | Victory Christian Fellowship",
+    "preached_date": "2024-01-01",
+    "display_date": "January 01, 2024",
+    "preached_timestamp": 1704081600000
   },
   "2023-12-31 - Victory Christian Fellowship - Aud Wa0021.mp4": {
     "videoId": "r-EFLMo-OSY",
@@ -1327,25 +1639,128 @@
     "speaker": "Victory Christian Fellowship (Congregation)",
     "passage": "Psalm 103:1-12",
     "uploadedAt": "2026-08-27 10:00:51",
-    "url": "https://youtu.be/r-EFLMo-OSY"
+    "url": "https://youtu.be/r-EFLMo-OSY",
+    "preached_date": "2023-12-31",
+    "display_date": "December 31, 2023",
+    "preached_timestamp": 1703995200000
   },
-  "2023-12-30 - Victory Christian Fellowship - 07-09-2023.mp4": {
-    "videoId": "MqDnHaZxMNw",
-    "youtube_title": "Open Mic Testimonies of God's Grace (Jul 09, 2023) | VCF",
-    "title": "Open Mic Testimonies of God's Grace (Jul 09, 2023) | VCF",
-    "speaker": "Victory Christian Fellowship (Congregation)",
-    "passage": "1 Peter 2:9-10",
-    "uploadedAt": "2026-08-27 10:03:58",
-    "url": "https://youtu.be/MqDnHaZxMNw"
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/03/Jake-Siemens-250302_1151.mp3": {
+    "videoId": "GJ9FRrUI-sI",
+    "title": "Heaven",
+    "speaker": "Jake Siemens",
+    "date": "December 30, 2023",
+    "uploadedAt": "2026-08-26 10:26:24",
+    "short_date": "Dec 30, 2023",
+    "youtube_title": "Heaven - Jake Siemens (Dec 30, 2023) | Victory Christian Fellowship",
+    "preached_date": "2023-12-30",
+    "display_date": "December 30, 2023",
+    "preached_timestamp": 1703908800000
   },
-  "2023-12-30 - John Banman - 07-16-2023 Dont Give Up.mp4": {
-    "videoId": "zZbPOantSis",
-    "youtube_title": "Don't Give Up: Steadfastness in Christ - John Banman (Jul 16, 2023) | VCF",
-    "title": "Don't Give Up: Steadfastness in Christ",
-    "speaker": "John Banman",
-    "passage": "Galatians 6:9; Hebrews 10:35-39",
-    "uploadedAt": "2026-08-27 10:10:24",
-    "url": "https://youtu.be/zZbPOantSis"
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/04/Corny-Janzen-250330_1047.mp3": {
+    "videoId": "cuUgJ2xgcQ8",
+    "title": "1 Peter 3 Exposition",
+    "speaker": "Corny Janzen",
+    "date": "November 27, 2023",
+    "uploadedAt": "2026-08-26 10:18:05",
+    "short_date": "Nov 27, 2023",
+    "youtube_title": "1 Peter 3 Exposition - Corny Janzen (Nov 27, 2023) | Victory Christian Fellowship",
+    "preached_date": "2023-11-27",
+    "display_date": "November 27, 2023",
+    "preached_timestamp": 1701057600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/07/Jake-Siemens-Message.mp3": {
+    "videoId": "6-UL9msENI8",
+    "title": "Any Afflicted, Merry, Sick?",
+    "speaker": "Jake Siemens",
+    "date": "November 26, 2023",
+    "uploadedAt": "2026-08-27 08:19:04",
+    "youtube_title": "Any Afflicted, Merry, Sick? - Jake Siemens (November 26, 2023) | Victory Christian Fellowship",
+    "preached_date": "2023-11-26",
+    "display_date": "November 26, 2023",
+    "preached_timestamp": 1700971200000
+  },
+  "November 19 2023 - Corny Janzen - 7 Types of Conscience in the Bible.mp4": {
+    "videoId": "gF0r0r0hcPM",
+    "youtube_title": "7 Types of Conscience in the Bible - Corny Janzen (Nov 19, 2023) | VCF",
+    "title": "7 Types of Conscience in the Bible",
+    "speaker": "Corny Janzen",
+    "passage": "1 Timothy 1:5; Hebrews 9:14",
+    "uploadedAt": "2026-08-27 08:51:23",
+    "url": "https://youtu.be/gF0r0r0hcPM",
+    "preached_date": "2023-11-19",
+    "display_date": "November 19, 2023",
+    "preached_timestamp": 1700366400000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/06/Jake-Siemens.mp3": {
+    "videoId": "_T8_DUmtGKg",
+    "title": "Woe to the Rich, Patience For the Believer (James 5)",
+    "speaker": "Jake Siemens",
+    "date": "November 05, 2023",
+    "uploadedAt": "2026-08-26 11:34:53",
+    "short_date": "Nov 05, 2023",
+    "youtube_title": "Woe to the Rich, Patience For the Believer (James 5) - Jake Siemens (Nov 05, 2023) | VCF",
+    "preached_date": "2023-11-05",
+    "display_date": "November 05, 2023",
+    "preached_timestamp": 1699153200000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/07/Corny-Janzen-250706_1044.mp3": {
+    "videoId": "T_gnAbjWvDc",
+    "title": "1 Peter 5",
+    "speaker": "Corny Janzen",
+    "date": "October 26, 2023",
+    "uploadedAt": "2026-08-26 09:47:00",
+    "short_date": "Oct 26, 2023",
+    "youtube_title": "1 Peter 5 - Corny Janzen (Oct 26, 2023) | Victory Christian Fellowship",
+    "preached_date": "2023-10-26",
+    "display_date": "October 26, 2023",
+    "preached_timestamp": 1698289200000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/04/Jake-Siemens-3.mp3": {
+    "videoId": "ZpsGwB9oPeo",
+    "title": "A Friend of the World or a Friend of God",
+    "speaker": "Jake Siemens",
+    "date": "July 30, 2023",
+    "uploadedAt": "2026-08-27 08:32:50",
+    "youtube_title": "A Friend of the World or a Friend of God - Jake Siemens (July 30, 2023) | VCF",
+    "preached_date": "2023-07-30",
+    "display_date": "July 30, 2023",
+    "preached_timestamp": 1690686000000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/11/John-Enns-251026_1044.mp3": {
+    "videoId": "osatPyX-2XA",
+    "title": "I Would Rather Be Bored",
+    "speaker": "Victory Christian Fellowship",
+    "date": "July 26, 2023",
+    "uploadedAt": "2026-08-26 09:02:44",
+    "short_date": "Jul 26, 2023",
+    "youtube_title": "I Would Rather Be Bored - Victory Christian Fellowship (Jul 26, 2023) | VCF",
+    "preached_date": "2023-07-26",
+    "display_date": "July 26, 2023",
+    "preached_timestamp": 1690340400000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/06/Henry-Wall-250622_1052.mp3": {
+    "videoId": "utD5dCmrqeg",
+    "title": "Do What You Can",
+    "speaker": "Henry Wall",
+    "date": "July 23, 2023",
+    "uploadedAt": "2026-08-26 09:51:03",
+    "short_date": "Jul 23, 2023",
+    "youtube_title": "Do What You Can - Henry Wall (Jul 23, 2023) | Victory Christian Fellowship",
+    "preached_date": "2023-07-23",
+    "display_date": "July 23, 2023",
+    "preached_timestamp": 1690081200000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2025/05/David-Janzen-250518_1046.mp3": {
+    "videoId": "gK1gxwth6v4",
+    "title": "Two Ways",
+    "speaker": "Victory Christian Fellowship",
+    "date": "July 23, 2023",
+    "uploadedAt": "2026-08-26 10:00:27",
+    "short_date": "Jul 23, 2023",
+    "youtube_title": "Two Ways - Victory Christian Fellowship (Jul 23, 2023) | Victory Christian Fellowship",
+    "preached_date": "2023-07-23",
+    "display_date": "July 23, 2023",
+    "preached_timestamp": 1690081200000
   },
   "2023-11-27 - Corny Janzen - 07-19-2023 1 R 3.mp4": {
     "videoId": "t1biGnZ-XzE",
@@ -1354,6 +1769,56 @@
     "speaker": "Corny Janzen",
     "passage": "1 Peter 3:8-17",
     "uploadedAt": "2026-08-27 10:21:33",
-    "url": "https://youtu.be/t1biGnZ-XzE"
+    "url": "https://youtu.be/t1biGnZ-XzE",
+    "preached_date": "2023-07-19",
+    "display_date": "July 19, 2023",
+    "preached_timestamp": 1689735600000
+  },
+  "2024-01-06 - John Enns - 07-16-2023 Prayer.mp4": {
+    "videoId": "mfIRI84aQp4",
+    "youtube_title": "Persistent Prayer - John Enns (Jul 16, 2023) | VCF",
+    "title": "Persistent Prayer",
+    "speaker": "John Enns",
+    "passage": "Luke 18:1-8; James 5:16",
+    "uploadedAt": "2026-08-27 09:32:33",
+    "url": "https://youtu.be/mfIRI84aQp4",
+    "preached_date": "2023-07-16",
+    "display_date": "July 16, 2023",
+    "preached_timestamp": 1689476400000
+  },
+  "2023-12-30 - John Banman - 07-16-2023 Dont Give Up.mp4": {
+    "videoId": "zZbPOantSis",
+    "youtube_title": "Don't Give Up: Steadfastness in Christ - John Banman (Jul 16, 2023) | VCF",
+    "title": "Don't Give Up: Steadfastness in Christ",
+    "speaker": "John Banman",
+    "passage": "Galatians 6:9; Hebrews 10:35-39",
+    "uploadedAt": "2026-08-27 10:10:24",
+    "url": "https://youtu.be/zZbPOantSis",
+    "preached_date": "2023-07-16",
+    "display_date": "July 16, 2023",
+    "preached_timestamp": 1689476400000
+  },
+  "2023-12-30 - Victory Christian Fellowship - 07-09-2023.mp4": {
+    "videoId": "MqDnHaZxMNw",
+    "youtube_title": "Open Mic Testimonies of God's Grace (Jul 09, 2023) | VCF",
+    "title": "Open Mic Testimonies of God's Grace (Jul 09, 2023) | VCF",
+    "speaker": "Victory Christian Fellowship (Congregation)",
+    "passage": "1 Peter 2:9-10",
+    "uploadedAt": "2026-08-27 10:03:58",
+    "url": "https://youtu.be/MqDnHaZxMNw",
+    "preached_date": "2023-07-09",
+    "display_date": "July 09, 2023",
+    "preached_timestamp": 1688871600000
+  },
+  "https://victorychristianfellowship.ca/wp-content/uploads/2024/03/Jake-Siemens-2.mp3": {
+    "videoId": "4MJ0d7tzwzQ",
+    "title": "Taming the Untamable Tongue",
+    "speaker": "Jake Siemens",
+    "date": "April 9, 2023",
+    "uploadedAt": "2026-08-27 08:34:26",
+    "youtube_title": "Taming the Untamable Tongue - Jake Siemens (April 9, 2023) | Victory Christian Fellowship",
+    "preached_date": "2023-04-09",
+    "display_date": "April 09, 2023",
+    "preached_timestamp": 1681009200000
   }
 }

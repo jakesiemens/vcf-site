@@ -69,11 +69,16 @@
 
         // Fallback: extract preacher from title if not set
         if (!meta.preacher && title) {
-            const mPreacher = title.match(/-\s*([A-Za-z\s]+?)\s*(\([A-Za-z0-9,\s]+\)|\|)/);
-            if (mPreacher) {
-                const cand = mPreacher[1].trim();
-                if (!cand.toLowerCase().includes('victory') && !cand.toLowerCase().includes('fellowship')) {
-                    meta.preacher = cand;
+            const mPreacherParen = title.match(/\(([A-Za-z\s]+?),\s*(?:[1-3]\s*)?[A-Za-z]+\s*\d+/);
+            if (mPreacherParen) {
+                meta.preacher = mPreacherParen[1].trim();
+            } else {
+                const mPreacher = title.match(/-\s*([A-Za-z\s]+?)\s*(\([A-Za-z0-9,\s]+\)|\|)/);
+                if (mPreacher) {
+                    const cand = mPreacher[1].trim();
+                    if (!cand.toLowerCase().includes('victory') && !cand.toLowerCase().includes('fellowship')) {
+                        meta.preacher = cand;
+                    }
                 }
             }
         }
@@ -292,6 +297,54 @@
                 }
             } catch (archiveErr) {
                 console.warn('[VCF Sermons] Could not fetch local clean archive, trying YouTube API fallback:', archiveErr);
+            }
+
+            // 1b. Real-time Live Sync: Check latest channel uploads to immediately show any newly published sermon
+            if (loaded && VCF_CONFIG.API_KEY && VCF_CONFIG.API_KEY !== 'YOUR_API_KEY_HERE' && VCF_CONFIG.CHANNEL_ID && VCF_CONFIG.CHANNEL_ID !== 'YOUR_CHANNEL_ID_HERE') {
+                try {
+                    const uploadsId = 'UU' + VCF_CONFIG.CHANNEL_ID.substring(2);
+                    const recentUrl = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${uploadsId}&maxResults=5&key=${VCF_CONFIG.API_KEY}`;
+                    const rResp = await fetch(recentUrl);
+                    if (rResp.ok) {
+                        const rData = await rResp.json();
+                        const existingIds = new Set(allSermons.map(s => s.videoId));
+                        const newItems = (rData.items || []).filter(item => {
+                            const vid = item.snippet?.resourceId?.videoId;
+                            const title = item.snippet?.title || '';
+                            return vid && !existingIds.has(vid) && !title.toLowerCase().includes('deleted video') && !title.toLowerCase().includes('private video');
+                        });
+
+                        if (newItems.length > 0) {
+                            console.log(`[VCF Sermons] Detected ${newItems.length} newly published sermon(s) on YouTube not yet in static archive:`, newItems.map(i => i.snippet.resourceId.videoId));
+                            for (const item of newItems) {
+                                const videoId = item.snippet.resourceId.videoId;
+                                const title = item.snippet.title || '';
+                                const desc = item.snippet.description || '';
+                                const publishedAt = item.snippet.publishedAt;
+                                const meta = parseMeta(desc, title, []);
+                                const ts = meta.dateObj ? meta.dateObj.getTime() : new Date(publishedAt).getTime();
+
+                                allSermons.unshift({
+                                    videoId,
+                                    title,
+                                    displayDate: meta.date || (publishedAt ? publishedAt.substring(0, 10) : ''),
+                                    preachedTimestamp: ts,
+                                    publishedAt,
+                                    meta: {
+                                        preacher: meta.preacher || '',
+                                        scripture: meta.scripture || '',
+                                        date: meta.date || '',
+                                        dateObj: meta.dateObj,
+                                        searchKeywords: [title, meta.preacher, meta.scripture, meta.date].filter(Boolean).join(' ').toLowerCase()
+                                    },
+                                    isLive: title.toLowerCase().includes('live')
+                                });
+                            }
+                        }
+                    }
+                } catch (liveSyncErr) {
+                    console.warn('[VCF Sermons] Real-time YouTube sync check notice:', liveSyncErr);
+                }
             }
 
             // 2. YouTube Data API fallback (if local archive was unavailable)

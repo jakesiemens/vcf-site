@@ -1,0 +1,37 @@
+name: Sync YouTube Sermons
+
+on:
+  schedule:
+    # Run daily at 06:00 UTC (03:00 Atlantic Time)
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run sermon synchronizer & audit
+        run: python sync_sermons.py
+
+      - name: Commit and push changes if updated
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain sermons_youtube_archive_clean.json)" ]; then
+            git add sermons_youtube_archive_clean.json
+            git commit -m "Auto-sync: Remove deleted YouTube sermons and update archive"
+            git push
+          else
+            echo "No catalog changes detected."
+          fi

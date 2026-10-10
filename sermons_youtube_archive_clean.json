@@ -1933,20 +1933,6 @@
     "preached_timestamp": 1789268400000,
     "source": "YouTube"
   },
-  "youtube_BIS8neaxJm4": {
-    "videoId": "BIS8neaxJm4",
-    "title": "Jesus Came for Sinners",
-    "speaker": "Jake Siemens",
-    "passage": "Mark 2:13-17",
-    "date": "October 02, 2026",
-    "uploadedAt": "2026-10-02 07:47:19",
-    "short_date": "Oct 02, 2026",
-    "youtube_title": "Jesus Came for Sinners - Jake Siemens (October 02, 2026) | Victory Christian Fellowship",
-    "preached_date": "2026-10-02",
-    "display_date": "October 02, 2026",
-    "preached_timestamp": 1790910000000,
-    "source": "YouTube"
-  },
   "youtube_grXV64DtLTg": {
     "videoId": "grXV64DtLTg",
     "title": "Jesus Came for Sinners",
@@ -1959,6 +1945,62 @@
     "preached_date": "2026-09-27",
     "display_date": "September 27, 2026",
     "preached_timestamp": 1790478000000,
+    "source": "YouTube"
+  },
+  "youtube_2oJN-v4zR1U": {
+    "videoId": "2oJN-v4zR1U",
+    "title": "How Can I Be Filled with the Spirit?",
+    "speaker": "Raymond Burkholder",
+    "passage": "2 Kings 4:1–7",
+    "date": "October 09, 2026",
+    "uploadedAt": "2026-10-09 00:01:49",
+    "short_date": "Oct 09, 2026",
+    "youtube_title": "How Can I Be Filled with the Spirit? | Raymond Burkholder",
+    "preached_date": "2026-10-09",
+    "display_date": "October 09, 2026",
+    "preached_timestamp": 1791514800000,
+    "source": "YouTube"
+  },
+  "youtube_rgpC9eocktY": {
+    "videoId": "rgpC9eocktY",
+    "title": "Three Guiding Principles to Find the Will of God",
+    "speaker": "Raymond Burkholder",
+    "passage": "Acts 13:22",
+    "date": "October 08, 2026",
+    "uploadedAt": "2026-10-08 23:42:20",
+    "short_date": "Oct 08, 2026",
+    "youtube_title": "Three Guiding Principles to Find the Will of God | Raymond Burkholder",
+    "preached_date": "2026-10-08",
+    "display_date": "October 08, 2026",
+    "preached_timestamp": 1791428400000,
+    "source": "YouTube"
+  },
+  "youtube_vIOyHMli-2A": {
+    "videoId": "vIOyHMli-2A",
+    "title": "Abiding in the Vine: True Revival Through Union and Communion",
+    "speaker": "Raymond Burkholder",
+    "passage": "",
+    "date": "October 08, 2026",
+    "uploadedAt": "2026-10-08 20:59:46",
+    "short_date": "Oct 08, 2026",
+    "youtube_title": "Abiding in the Vine: True Revival Through Union and Communion-Raymond Burkholder",
+    "preached_date": "2026-10-08",
+    "display_date": "October 08, 2026",
+    "preached_timestamp": 1791428400000,
+    "source": "YouTube"
+  },
+  "youtube_frpITjydQxY": {
+    "videoId": "frpITjydQxY",
+    "title": "Serving the Meat: Seeing Jesus Throughout the Law and the Prophets",
+    "speaker": "Raymond Burkholder",
+    "passage": "",
+    "date": "October 07, 2026",
+    "uploadedAt": "2026-10-07 02:02:55",
+    "short_date": "Oct 07, 2026",
+    "youtube_title": "Serving the Meat: Seeing Jesus Throughout the Law and the Prophets | Raymond Burkholder",
+    "preached_date": "2026-10-07",
+    "display_date": "October 07, 2026",
+    "preached_timestamp": 1791342000000,
     "source": "YouTube"
   }
 }

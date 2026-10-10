@@ -303,7 +303,7 @@
             if (loaded && VCF_CONFIG.API_KEY && VCF_CONFIG.API_KEY !== 'YOUR_API_KEY_HERE' && VCF_CONFIG.CHANNEL_ID && VCF_CONFIG.CHANNEL_ID !== 'YOUR_CHANNEL_ID_HERE') {
                 try {
                     const uploadsId = 'UU' + VCF_CONFIG.CHANNEL_ID.substring(2);
-                    const recentUrl = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${uploadsId}&maxResults=5&key=${VCF_CONFIG.API_KEY}`;
+                    const recentUrl = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${uploadsId}&maxResults=25&key=${VCF_CONFIG.API_KEY}`;
                     const rResp = await fetch(recentUrl);
                     if (rResp.ok) {
                         const rData = await rResp.json();
@@ -344,6 +344,79 @@
                     }
                 } catch (liveSyncErr) {
                     console.warn('[VCF Sermons] Real-time YouTube sync check notice:', liveSyncErr);
+                }
+            }
+
+            // 1c. YouTube Availability Verification: Automatically purge any video deleted or made private on YouTube
+            if (loaded && allSermons.length > 0 && VCF_CONFIG.API_KEY && VCF_CONFIG.API_KEY !== 'YOUR_API_KEY_HERE') {
+                try {
+                    const CACHE_KEY = 'vcf_verified_yt_ids_v1';
+                    const CACHE_TIME_KEY = 'vcf_verified_yt_ids_time_v1';
+                    const CACHE_TTL_MS = 15 * 60 * 1000; // 15-minute session cache
+
+                    let validIds = null;
+                    const cachedTime = sessionStorage.getItem(CACHE_TIME_KEY);
+                    const cachedData = sessionStorage.getItem(CACHE_KEY);
+
+                    if (cachedTime && cachedData && (Date.now() - Number(cachedTime) < CACHE_TTL_MS)) {
+                        try {
+                            const parsed = JSON.parse(cachedData);
+                            if (Array.isArray(parsed) && parsed.length > 0) {
+                                validIds = new Set(parsed);
+                            }
+                        } catch (_) {
+                            validIds = null;
+                        }
+                    }
+
+                    if (!validIds) {
+                        const videoIds = allSermons.map(s => s.videoId);
+                        const chunks = [];
+                        for (let i = 0; i < videoIds.length; i += 50) {
+                            chunks.push(videoIds.slice(i, i + 50));
+                        }
+
+                        const batchResults = await Promise.all(chunks.map(async chunkIds => {
+                            try {
+                                const vUrl = `https://www.googleapis.com/youtube/v3/videos?part=id,status&id=${chunkIds.join(',')}&key=${VCF_CONFIG.API_KEY}`;
+                                const vResp = await fetch(vUrl);
+                                if (!vResp.ok) return [];
+                                const vData = await vResp.json();
+                                return vData.items || [];
+                            } catch (_) {
+                                return [];
+                            }
+                        }));
+
+                        const fetchedValidIds = new Set();
+                        for (const items of batchResults) {
+                            for (const item of items) {
+                                const privacy = item.status?.privacyStatus;
+                                const uploadStatus = item.status?.uploadStatus;
+                                if (privacy !== 'private' && uploadStatus !== 'rejected' && uploadStatus !== 'failed') {
+                                    fetchedValidIds.add(item.id);
+                                }
+                            }
+                        }
+
+                        if (fetchedValidIds.size > 0) {
+                            validIds = fetchedValidIds;
+                            try {
+                                sessionStorage.setItem(CACHE_KEY, JSON.stringify([...validIds]));
+                                sessionStorage.setItem(CACHE_TIME_KEY, String(Date.now()));
+                            } catch (_) {}
+                        }
+                    }
+
+                    if (validIds && validIds.size > 0) {
+                        const beforeCount = allSermons.length;
+                        allSermons = allSermons.filter(s => validIds.has(s.videoId));
+                        if (allSermons.length < beforeCount) {
+                            console.log(`[VCF Sermons] Automatically pruned ${beforeCount - allSermons.length} removed/dead video(s) from YouTube.`);
+                        }
+                    }
+                } catch (verifyErr) {
+                    console.warn('[VCF Sermons] YouTube availability check notice:', verifyErr);
                 }
             }
 

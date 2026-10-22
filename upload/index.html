@@ -62,58 +62,12 @@
         <div class="spinner"></div>
         <h2>Connecting to Sermon Publisher...</h2>
         <p>Connecting securely to Victory Christian Fellowship's publishing portal.</p>
-        <a id="portal-link" href="https://fantastic-burn-glasgow-dialogue.trycloudflare.com" class="btn">Open Portal Directly</a>
-        <div class="hint" id="status-hint">Resolving active portal link...</div>
+        <a id="portal-link" href="https://vcf-sermon-uploader-1.onrender.com/" class="btn">Open Portal Directly</a>
+        <div class="hint" id="status-hint">Redirecting to active portal...</div>
     </div>
 
     <script>
-        var fallbackUrl = "https://fantastic-burn-glasgow-dialogue.trycloudflare.com";
-        var targetUrl = fallbackUrl;
-
-        function redirect(url) {
-            if (url) {
-                var btn = document.getElementById('portal-link');
-                if (btn) btn.href = url;
-                window.location.replace(url);
-            }
-        }
-
-        var ts = Date.now();
-        var urlsToTry = [
-            'tunnel.json?v=' + ts,
-            'https://raw.githubusercontent.com/jakesiemens/vcf-site/main/upload/tunnel.json?v=' + ts
-        ];
-
-        function tryNext(index) {
-            if (index >= urlsToTry.length) {
-                setTimeout(function() { redirect(fallbackUrl); }, 500);
-                return;
-            }
-            fetch(urlsToTry[index], { cache: 'no-store' })
-                .then(function(res) {
-                    if (res.ok) return res.json();
-                    throw new Error('Not ok');
-                })
-                .then(function(data) {
-                    if (data && data.url) {
-                        targetUrl = data.url;
-                        var hint = document.getElementById('status-hint');
-                        if (hint) hint.textContent = 'Redirecting...';
-                        redirect(targetUrl);
-                    } else {
-                        tryNext(index + 1);
-                    }
-                })
-                .catch(function() {
-                    tryNext(index + 1);
-                });
-        }
-
-        tryNext(0);
-
-        setTimeout(function() {
-            redirect(targetUrl);
-        }, 3000);
+        window.location.replace("https://vcf-sermon-uploader-1.onrender.com/");
     </script>
 </body>
 </html>
